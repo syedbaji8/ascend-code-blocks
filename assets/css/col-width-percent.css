@@ -1,0 +1,1921 @@
+/* Info: Height styles ENDS */
+.col-width-percent-1,
+.col-width-percent-2,
+.col-width-percent-3,
+.col-width-percent-4,
+.col-width-percent-5,
+.col-width-percent-6,
+.col-width-percent-7,
+.col-width-percent-8,
+.col-width-percent-9,
+.col-width-percent-10,
+.col-width-percent-11,
+.col-width-percent-12,
+.col-width-percent-13,
+.col-width-percent-14,
+.col-width-percent-15,
+.col-width-percent-16,
+.col-width-percent-17,
+.col-width-percent-18,
+.col-width-percent-19,
+.col-width-percent-20,
+.col-width-percent-21,
+.col-width-percent-22,
+.col-width-percent-23,
+.col-width-percent-24,
+.col-width-percent-25,
+.col-width-percent-26,
+.col-width-percent-27,
+.col-width-percent-28,
+.col-width-percent-29,
+.col-width-percent-30,
+.col-width-percent-31,
+.col-width-percent-32,
+.col-width-percent-33,
+.col-width-percent-34,
+.col-width-percent-35,
+.col-width-percent-36,
+.col-width-percent-37,
+.col-width-percent-38,
+.col-width-percent-39,
+.col-width-percent-40,
+.col-width-percent-41,
+.col-width-percent-42,
+.col-width-percent-43,
+.col-width-percent-44,
+.col-width-percent-45,
+.col-width-percent-46,
+.col-width-percent-47,
+.col-width-percent-48,
+.col-width-percent-49,
+.col-width-percent-50,
+.col-width-percent-51,
+.col-width-percent-52,
+.col-width-percent-53,
+.col-width-percent-54,
+.col-width-percent-55,
+.col-width-percent-56,
+.col-width-percent-57,
+.col-width-percent-58,
+.col-width-percent-59,
+.col-width-percent-60,
+.col-width-percent-61,
+.col-width-percent-62,
+.col-width-percent-63,
+.col-width-percent-64,
+.col-width-percent-65,
+.col-width-percent-66,
+.col-width-percent-67,
+.col-width-percent-68,
+.col-width-percent-69,
+.col-width-percent-70,
+.col-width-percent-71,
+.col-width-percent-72,
+.col-width-percent-73,
+.col-width-percent-74,
+.col-width-percent-75,
+.col-width-percent-76,
+.col-width-percent-77,
+.col-width-percent-78,
+.col-width-percent-79,
+.col-width-percent-80,
+.col-width-percent-81,
+.col-width-percent-82,
+.col-width-percent-83,
+.col-width-percent-84,
+.col-width-percent-85,
+.col-width-percent-86,
+.col-width-percent-87,
+.col-width-percent-88,
+.col-width-percent-89,
+.col-width-percent-90,
+.col-width-percent-91,
+.col-width-percent-92,
+.col-width-percent-93,
+.col-width-percent-94,
+.col-width-percent-95,
+.col-width-percent-96,
+.col-width-percent-97,
+.col-width-percent-98,
+.col-width-percent-99,
+.col-width-percent-100{
+    position: relative;
+    min-height: 1%;
+    width: 100%;
+    /* display: flex;
+    flex-flow: row wrap; */
+}
+.col-width-percent-0{
+    max-width: 0%;
+}
+.col-width-percent-1{
+    max-width: 1%;
+}
+.col-width-percent-2{
+    max-width: 2%;
+}
+.col-width-percent-3{
+    max-width: 3%;
+}
+.col-width-percent-4{
+    max-width: 4%;
+}
+.col-width-percent-5{
+    max-width: 5%;
+}
+.col-width-percent-6{
+    max-width: 6%;
+}
+.col-width-percent-7{
+    max-width: 7%;
+}
+.col-width-percent-8{
+    max-width: 8%;
+}
+.col-width-percent-9{
+    max-width: 9%;
+}
+.col-width-percent-10{
+    max-width: 10%;
+}
+.col-width-percent-11{
+    max-width: 11%;
+}
+.col-width-percent-12{
+    max-width: 12%;
+}
+.col-width-percent-13{
+    max-width: 13%;
+}
+.col-width-percent-14{
+    max-width: 14%;
+}
+.col-width-percent-15{
+    max-width: 15%;
+}
+.col-width-percent-16{
+    max-width: 16%;
+}
+.col-width-percent-17{
+    max-width: 17%;
+}
+.col-width-percent-18{
+    max-width: 18%;
+}
+.col-width-percent-19{
+    max-width: 19%;
+}
+.col-width-percent-20{
+    max-width: 20%;
+}
+.col-width-percent-21{
+    max-width: 21%;
+}
+.col-width-percent-22{
+    max-width: 22%;
+}
+.col-width-percent-23{
+    max-width: 23%;
+}
+.col-width-percent-24{
+    max-width: 24%;
+}
+.col-width-percent-25{
+    max-width: 25%;
+}
+.col-width-percent-26{
+    max-width: 26%;
+}
+.col-width-percent-27{
+    max-width: 27%;
+}
+.col-width-percent-28{
+    max-width: 28%;
+}
+.col-width-percent-29{
+    max-width: 29%;
+}
+.col-width-percent-30{
+    max-width: 30%;
+}
+.col-width-percent-31{
+    max-width: 31%;
+}
+.col-width-percent-32{
+    max-width: 32%;
+}
+.col-width-percent-33{
+    max-width: 33%;
+}
+.col-width-percent-34{
+    max-width: 34%;
+}
+.col-width-percent-35{
+    max-width: 35%;
+}
+.col-width-percent-36{
+    max-width: 36%;
+}
+.col-width-percent-37{
+    max-width: 37%;
+}
+.col-width-percent-38{
+    max-width: 38%;
+}
+.col-width-percent-39{
+    max-width: 39%;
+}
+.col-width-percent-40{
+    max-width: 40%;
+}
+.col-width-percent-41{
+    max-width: 41%;
+}
+.col-width-percent-42{
+    max-width: 42%;
+}
+.col-width-percent-43{
+    max-width: 43%;
+}
+.col-width-percent-44{
+    max-width: 44%;
+}
+.col-width-percent-45{
+    max-width: 45%;
+}
+.col-width-percent-46{
+    max-width: 46%;
+}
+.col-width-percent-47{
+    max-width: 47%;
+}
+.col-width-percent-48{
+    max-width: 48%;
+}
+.col-width-percent-49{
+    max-width: 49%;
+}
+.col-width-percent-50{
+    max-width: 50%;
+}
+.col-width-percent-51{
+    max-width: 51%;
+}
+.col-width-percent-52{
+    max-width: 52%;
+}
+.col-width-percent-53{
+    max-width: 53%;
+}
+.col-width-percent-54{
+    max-width: 54%;
+}
+.col-width-percent-55{
+    max-width: 55%;
+}
+.col-width-percent-56{
+    max-width: 56%;
+}
+.col-width-percent-57{
+    max-width: 57%;
+}
+.col-width-percent-58{
+    max-width: 58%;
+}
+.col-width-percent-59{
+    max-width: 59%;
+}
+.col-width-percent-60{
+    max-width: 60%;
+}
+.col-width-percent-61{
+    max-width: 61%;
+}
+.col-width-percent-62{
+    max-width: 62%;
+}
+.col-width-percent-63{
+    max-width: 63%;
+}
+.col-width-percent-64{
+    max-width: 64%;
+}
+.col-width-percent-65{
+    max-width: 65%;
+}
+.col-width-percent-66{
+    max-width: 66%;
+}
+.col-width-percent-67{
+    max-width: 67%;
+}
+.col-width-percent-68{
+    max-width: 68%;
+}
+.col-width-percent-69{
+    max-width: 69%;
+}
+.col-width-percent-70{
+    max-width: 70%;
+}
+.col-width-percent-71{
+    max-width: 71%;
+}
+.col-width-percent-72{
+    max-width: 72%;
+}
+.col-width-percent-73{
+    max-width: 73%;
+}
+.col-width-percent-74{
+    max-width: 74%;
+}
+.col-width-percent-75{
+    max-width: 75%;
+}
+.col-width-percent-76{
+    max-width: 76%;
+}
+.col-width-percent-77{
+    max-width: 77%;
+}
+.col-width-percent-78{
+    max-width: 78%;
+}
+.col-width-percent-79{
+    max-width: 79%;
+}
+.col-width-percent-80{
+    max-width: 80%;
+}
+.col-width-percent-81{
+    max-width: 81%;
+}
+.col-width-percent-82{
+    max-width: 82%;
+}
+.col-width-percent-83{
+    max-width: 83%;
+}
+.col-width-percent-84{
+    max-width: 84%;
+}
+.col-width-percent-85{
+    max-width: 85%;
+}
+.col-width-percent-86{
+    max-width: 86%;
+}
+.col-width-percent-87{
+    max-width: 87%;
+}
+.col-width-percent-88{
+    max-width: 88%;
+}
+.col-width-percent-89{
+    max-width: 89%;
+}
+.col-width-percent-90{
+    max-width: 90%;
+}
+.col-width-percent-91{
+    max-width: 91%;
+}
+.col-width-percent-92{
+    max-width: 92%;
+}
+.col-width-percent-93{
+    max-width: 93%;
+}
+.col-width-percent-94{
+    max-width: 94%;
+}
+.col-width-percent-95{
+    max-width: 95%;
+}
+.col-width-percent-96{
+    max-width: 96%;
+}
+.col-width-percent-97{
+    max-width: 97%;
+}
+.col-width-percent-98{
+    max-width: 98%;
+}
+.col-width-percent-99{
+    max-width: 99%;
+}
+.col-width-percent-100{
+    max-width: 100%;
+}
+@media (min-width: 576px) {
+    .col-width-percent-sm-1{
+        max-width: 1%;
+    }
+    .col-width-percent-sm-2{
+        max-width: 2%;
+    }
+    .col-width-percent-sm-3{
+        max-width: 3%;
+    }
+    .col-width-percent-sm-4{
+        max-width: 4%;
+    }
+    .col-width-percent-sm-5{
+        max-width: 5%;
+    }
+    .col-width-percent-sm-6{
+        max-width: 6%;
+    }
+    .col-width-percent-sm-7{
+        max-width: 7%;
+    }
+    .col-width-percent-sm-8{
+        max-width: 8%;
+    }
+    .col-width-percent-sm-9{
+        max-width: 9%;
+    }
+    .col-width-percent-sm-10{
+        max-width: 10%;
+    }
+    .col-width-percent-sm-11{
+        max-width: 11%;
+    }
+    .col-width-percent-sm-12{
+        max-width: 12%;
+    }
+    .col-width-percent-sm-13{
+        max-width: 13%;
+    }
+    .col-width-percent-sm-14{
+        max-width: 14%;
+    }
+    .col-width-percent-sm-15{
+        max-width: 15%;
+    }
+    .col-width-percent-sm-16{
+        max-width: 16%;
+    }
+    .col-width-percent-sm-17{
+        max-width: 17%;
+    }
+    .col-width-percent-sm-18{
+        max-width: 18%;
+    }
+    .col-width-percent-sm-19{
+        max-width: 19%;
+    }
+    .col-width-percent-sm-20{
+        max-width: 20%;
+    }
+    .col-width-percent-sm-21{
+        max-width: 21%;
+    }
+    .col-width-percent-sm-22{
+        max-width: 22%;
+    }
+    .col-width-percent-sm-23{
+        max-width: 23%;
+    }
+    .col-width-percent-sm-24{
+        max-width: 24%;
+    }
+    .col-width-percent-sm-25{
+        max-width: 25%;
+    }
+    .col-width-percent-sm-26{
+        max-width: 26%;
+    }
+    .col-width-percent-sm-27{
+        max-width: 27%;
+    }
+    .col-width-percent-sm-28{
+        max-width: 28%;
+    }
+    .col-width-percent-sm-29{
+        max-width: 29%;
+    }
+    .col-width-percent-sm-30{
+        max-width: 30%;
+    }
+    .col-width-percent-sm-31{
+        max-width: 31%;
+    }
+    .col-width-percent-sm-32{
+        max-width: 32%;
+    }
+    .col-width-percent-sm-33{
+        max-width: 33%;
+    }
+    .col-width-percent-sm-34{
+        max-width: 34%;
+    }
+    .col-width-percent-sm-35{
+        max-width: 35%;
+    }
+    .col-width-percent-sm-36{
+        max-width: 36%;
+    }
+    .col-width-percent-sm-37{
+        max-width: 37%;
+    }
+    .col-width-percent-sm-38{
+        max-width: 38%;
+    }
+    .col-width-percent-sm-39{
+        max-width: 39%;
+    }
+    .col-width-percent-sm-40{
+        max-width: 40%;
+    }
+    .col-width-percent-sm-41{
+        max-width: 41%;
+    }
+    .col-width-percent-sm-42{
+        max-width: 42%;
+    }
+    .col-width-percent-sm-43{
+        max-width: 43%;
+    }
+    .col-width-percent-sm-44{
+        max-width: 44%;
+    }
+    .col-width-percent-sm-45{
+        max-width: 45%;
+    }
+    .col-width-percent-sm-46{
+        max-width: 46%;
+    }
+    .col-width-percent-sm-47{
+        max-width: 47%;
+    }
+    .col-width-percent-sm-48{
+        max-width: 48%;
+    }
+    .col-width-percent-sm-49{
+        max-width: 49%;
+    }
+    .col-width-percent-sm-50{
+        max-width: 50%;
+    }
+    .col-width-percent-sm-51{
+        max-width: 51%;
+    }
+    .col-width-percent-sm-52{
+        max-width: 52%;
+    }
+    .col-width-percent-sm-53{
+        max-width: 53%;
+    }
+    .col-width-percent-sm-54{
+        max-width: 54%;
+    }
+    .col-width-percent-sm-55{
+        max-width: 55%;
+    }
+    .col-width-percent-sm-56{
+        max-width: 56%;
+    }
+    .col-width-percent-sm-57{
+        max-width: 57%;
+    }
+    .col-width-percent-sm-58{
+        max-width: 58%;
+    }
+    .col-width-percent-sm-59{
+        max-width: 59%;
+    }
+    .col-width-percent-sm-60{
+        max-width: 60%;
+    }
+    .col-width-percent-sm-61{
+        max-width: 61%;
+    }
+    .col-width-percent-sm-62{
+        max-width: 62%;
+    }
+    .col-width-percent-sm-63{
+        max-width: 63%;
+    }
+    .col-width-percent-sm-64{
+        max-width: 64%;
+    }
+    .col-width-percent-sm-65{
+        max-width: 65%;
+    }
+    .col-width-percent-sm-66{
+        max-width: 66%;
+    }
+    .col-width-percent-sm-67{
+        max-width: 67%;
+    }
+    .col-width-percent-sm-68{
+        max-width: 68%;
+    }
+    .col-width-percent-sm-69{
+        max-width: 69%;
+    }
+    .col-width-percent-sm-70{
+        max-width: 70%;
+    }
+    .col-width-percent-sm-71{
+        max-width: 71%;
+    }
+    .col-width-percent-sm-72{
+        max-width: 72%;
+    }
+    .col-width-percent-sm-73{
+        max-width: 73%;
+    }
+    .col-width-percent-sm-74{
+        max-width: 74%;
+    }
+    .col-width-percent-sm-75{
+        max-width: 75%;
+    }
+    .col-width-percent-sm-76{
+        max-width: 76%;
+    }
+    .col-width-percent-sm-77{
+        max-width: 77%;
+    }
+    .col-width-percent-sm-78{
+        max-width: 78%;
+    }
+    .col-width-percent-sm-79{
+        max-width: 79%;
+    }
+    .col-width-percent-sm-80{
+        max-width: 80%;
+    }
+    .col-width-percent-sm-81{
+        max-width: 81%;
+    }
+    .col-width-percent-sm-82{
+        max-width: 82%;
+    }
+    .col-width-percent-sm-83{
+        max-width: 83%;
+    }
+    .col-width-percent-sm-84{
+        max-width: 84%;
+    }
+    .col-width-percent-sm-85{
+        max-width: 85%;
+    }
+    .col-width-percent-sm-86{
+        max-width: 86%;
+    }
+    .col-width-percent-sm-87{
+        max-width: 87%;
+    }
+    .col-width-percent-sm-88{
+        max-width: 88%;
+    }
+    .col-width-percent-sm-89{
+        max-width: 89%;
+    }
+    .col-width-percent-sm-90{
+        max-width: 90%;
+    }
+    .col-width-percent-sm-91{
+        max-width: 91%;
+    }
+    .col-width-percent-sm-92{
+        max-width: 92%;
+    }
+    .col-width-percent-sm-93{
+        max-width: 93%;
+    }
+    .col-width-percent-sm-94{
+        max-width: 94%;
+    }
+    .col-width-percent-sm-95{
+        max-width: 95%;
+    }
+    .col-width-percent-sm-96{
+        max-width: 96%;
+    }
+    .col-width-percent-sm-97{
+        max-width: 97%;
+    }
+    .col-width-percent-sm-98{
+        max-width: 98%;
+    }
+    .col-width-percent-sm-99{
+        max-width: 99%;
+    }
+    .col-width-percent-sm-100{
+        max-width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .col-width-percent-md-1{
+        max-width: 1%;
+    }
+    .col-width-percent-md-2{
+        max-width: 2%;
+    }
+    .col-width-percent-md-3{
+        max-width: 3%;
+    }
+    .col-width-percent-md-4{
+        max-width: 4%;
+    }
+    .col-width-percent-md-5{
+        max-width: 5%;
+    }
+    .col-width-percent-md-6{
+        max-width: 6%;
+    }
+    .col-width-percent-md-7{
+        max-width: 7%;
+    }
+    .col-width-percent-md-8{
+        max-width: 8%;
+    }
+    .col-width-percent-md-9{
+        max-width: 9%;
+    }
+    .col-width-percent-md-10{
+        max-width: 10%;
+    }
+    .col-width-percent-md-11{
+        max-width: 11%;
+    }
+    .col-width-percent-md-12{
+        max-width: 12%;
+    }
+    .col-width-percent-md-13{
+        max-width: 13%;
+    }
+    .col-width-percent-md-14{
+        max-width: 14%;
+    }
+    .col-width-percent-md-15{
+        max-width: 15%;
+    }
+    .col-width-percent-md-16{
+        max-width: 16%;
+    }
+    .col-width-percent-md-17{
+        max-width: 17%;
+    }
+    .col-width-percent-md-18{
+        max-width: 18%;
+    }
+    .col-width-percent-md-19{
+        max-width: 19%;
+    }
+    .col-width-percent-md-20{
+        max-width: 20%;
+    }
+    .col-width-percent-md-21{
+        max-width: 21%;
+    }
+    .col-width-percent-md-22{
+        max-width: 22%;
+    }
+    .col-width-percent-md-23{
+        max-width: 23%;
+    }
+    .col-width-percent-md-24{
+        max-width: 24%;
+    }
+    .col-width-percent-md-25{
+        max-width: 25%;
+    }
+    .col-width-percent-md-26{
+        max-width: 26%;
+    }
+    .col-width-percent-md-27{
+        max-width: 27%;
+    }
+    .col-width-percent-md-28{
+        max-width: 28%;
+    }
+    .col-width-percent-md-29{
+        max-width: 29%;
+    }
+    .col-width-percent-md-30{
+        max-width: 30%;
+    }
+    .col-width-percent-md-31{
+        max-width: 31%;
+    }
+    .col-width-percent-md-32{
+        max-width: 32%;
+    }
+    .col-width-percent-md-33{
+        max-width: 33%;
+    }
+    .col-width-percent-md-34{
+        max-width: 34%;
+    }
+    .col-width-percent-md-35{
+        max-width: 35%;
+    }
+    .col-width-percent-md-36{
+        max-width: 36%;
+    }
+    .col-width-percent-md-37{
+        max-width: 37%;
+    }
+    .col-width-percent-md-38{
+        max-width: 38%;
+    }
+    .col-width-percent-md-39{
+        max-width: 39%;
+    }
+    .col-width-percent-md-40{
+        max-width: 40%;
+    }
+    .col-width-percent-md-41{
+        max-width: 41%;
+    }
+    .col-width-percent-md-42{
+        max-width: 42%;
+    }
+    .col-width-percent-md-43{
+        max-width: 43%;
+    }
+    .col-width-percent-md-44{
+        max-width: 44%;
+    }
+    .col-width-percent-md-45{
+        max-width: 45%;
+    }
+    .col-width-percent-md-46{
+        max-width: 46%;
+    }
+    .col-width-percent-md-47{
+        max-width: 47%;
+    }
+    .col-width-percent-md-48{
+        max-width: 48%;
+    }
+    .col-width-percent-md-49{
+        max-width: 49%;
+    }
+    .col-width-percent-md-50{
+        max-width: 50%;
+    }
+    .col-width-percent-md-51{
+        max-width: 51%;
+    }
+    .col-width-percent-md-52{
+        max-width: 52%;
+    }
+    .col-width-percent-md-53{
+        max-width: 53%;
+    }
+    .col-width-percent-md-54{
+        max-width: 54%;
+    }
+    .col-width-percent-md-55{
+        max-width: 55%;
+    }
+    .col-width-percent-md-56{
+        max-width: 56%;
+    }
+    .col-width-percent-md-57{
+        max-width: 57%;
+    }
+    .col-width-percent-md-58{
+        max-width: 58%;
+    }
+    .col-width-percent-md-59{
+        max-width: 59%;
+    }
+    .col-width-percent-md-60{
+        max-width: 60%;
+    }
+    .col-width-percent-md-61{
+        max-width: 61%;
+    }
+    .col-width-percent-md-62{
+        max-width: 62%;
+    }
+    .col-width-percent-md-63{
+        max-width: 63%;
+    }
+    .col-width-percent-md-64{
+        max-width: 64%;
+    }
+    .col-width-percent-md-65{
+        max-width: 65%;
+    }
+    .col-width-percent-md-66{
+        max-width: 66%;
+    }
+    .col-width-percent-md-67{
+        max-width: 67%;
+    }
+    .col-width-percent-md-68{
+        max-width: 68%;
+    }
+    .col-width-percent-md-69{
+        max-width: 69%;
+    }
+    .col-width-percent-md-70{
+        max-width: 70%;
+    }
+    .col-width-percent-md-71{
+        max-width: 71%;
+    }
+    .col-width-percent-md-72{
+        max-width: 72%;
+    }
+    .col-width-percent-md-73{
+        max-width: 73%;
+    }
+    .col-width-percent-md-74{
+        max-width: 74%;
+    }
+    .col-width-percent-md-75{
+        max-width: 75%;
+    }
+    .col-width-percent-md-76{
+        max-width: 76%;
+    }
+    .col-width-percent-md-77{
+        max-width: 77%;
+    }
+    .col-width-percent-md-78{
+        max-width: 78%;
+    }
+    .col-width-percent-md-79{
+        max-width: 79%;
+    }
+    .col-width-percent-md-80{
+        max-width: 80%;
+    }
+    .col-width-percent-md-81{
+        max-width: 81%;
+    }
+    .col-width-percent-md-82{
+        max-width: 82%;
+    }
+    .col-width-percent-md-83{
+        max-width: 83%;
+    }
+    .col-width-percent-md-84{
+        max-width: 84%;
+    }
+    .col-width-percent-md-85{
+        max-width: 85%;
+    }
+    .col-width-percent-md-86{
+        max-width: 86%;
+    }
+    .col-width-percent-md-87{
+        max-width: 87%;
+    }
+    .col-width-percent-md-88{
+        max-width: 88%;
+    }
+    .col-width-percent-md-89{
+        max-width: 89%;
+    }
+    .col-width-percent-md-90{
+        max-width: 90%;
+    }
+    .col-width-percent-md-91{
+        max-width: 91%;
+    }
+    .col-width-percent-md-92{
+        max-width: 92%;
+    }
+    .col-width-percent-md-93{
+        max-width: 93%;
+    }
+    .col-width-percent-md-94{
+        max-width: 94%;
+    }
+    .col-width-percent-md-95{
+        max-width: 95%;
+    }
+    .col-width-percent-md-96{
+        max-width: 96%;
+    }
+    .col-width-percent-md-97{
+        max-width: 97%;
+    }
+    .col-width-percent-md-98{
+        max-width: 98%;
+    }
+    .col-width-percent-md-99{
+        max-width: 99%;
+    }
+    .col-width-percent-md-100{
+        max-width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .col-width-percent-lg-1{
+        max-width: 1%;
+    }
+    .col-width-percent-lg-2{
+        max-width: 2%;
+    }
+    .col-width-percent-lg-3{
+        max-width: 3%;
+    }
+    .col-width-percent-lg-4{
+        max-width: 4%;
+    }
+    .col-width-percent-lg-5{
+        max-width: 5%;
+    }
+    .col-width-percent-lg-6{
+        max-width: 6%;
+    }
+    .col-width-percent-lg-7{
+        max-width: 7%;
+    }
+    .col-width-percent-lg-8{
+        max-width: 8%;
+    }
+    .col-width-percent-lg-9{
+        max-width: 9%;
+    }
+    .col-width-percent-lg-10{
+        max-width: 10%;
+    }
+    .col-width-percent-lg-11{
+        max-width: 11%;
+    }
+    .col-width-percent-lg-12{
+        max-width: 12%;
+    }
+    .col-width-percent-lg-13{
+        max-width: 13%;
+    }
+    .col-width-percent-lg-14{
+        max-width: 14%;
+    }
+    .col-width-percent-lg-15{
+        max-width: 15%;
+    }
+    .col-width-percent-lg-16{
+        max-width: 16%;
+    }
+    .col-width-percent-lg-17{
+        max-width: 17%;
+    }
+    .col-width-percent-lg-18{
+        max-width: 18%;
+    }
+    .col-width-percent-lg-19{
+        max-width: 19%;
+    }
+    .col-width-percent-lg-20{
+        max-width: 20%;
+    }
+    .col-width-percent-lg-21{
+        max-width: 21%;
+    }
+    .col-width-percent-lg-22{
+        max-width: 22%;
+    }
+    .col-width-percent-lg-23{
+        max-width: 23%;
+    }
+    .col-width-percent-lg-24{
+        max-width: 24%;
+    }
+    .col-width-percent-lg-25{
+        max-width: 25%;
+    }
+    .col-width-percent-lg-26{
+        max-width: 26%;
+    }
+    .col-width-percent-lg-27{
+        max-width: 27%;
+    }
+    .col-width-percent-lg-28{
+        max-width: 28%;
+    }
+    .col-width-percent-lg-29{
+        max-width: 29%;
+    }
+    .col-width-percent-lg-30{
+        max-width: 30%;
+    }
+    .col-width-percent-lg-31{
+        max-width: 31%;
+    }
+    .col-width-percent-lg-32{
+        max-width: 32%;
+    }
+    .col-width-percent-lg-33{
+        max-width: 33%;
+    }
+    .col-width-percent-lg-34{
+        max-width: 34%;
+    }
+    .col-width-percent-lg-35{
+        max-width: 35%;
+    }
+    .col-width-percent-lg-36{
+        max-width: 36%;
+    }
+    .col-width-percent-lg-37{
+        max-width: 37%;
+    }
+    .col-width-percent-lg-38{
+        max-width: 38%;
+    }
+    .col-width-percent-lg-39{
+        max-width: 39%;
+    }
+    .col-width-percent-lg-40{
+        max-width: 40%;
+    }
+    .col-width-percent-lg-41{
+        max-width: 41%;
+    }
+    .col-width-percent-lg-42{
+        max-width: 42%;
+    }
+    .col-width-percent-lg-43{
+        max-width: 43%;
+    }
+    .col-width-percent-lg-44{
+        max-width: 44%;
+    }
+    .col-width-percent-lg-45{
+        max-width: 45%;
+    }
+    .col-width-percent-lg-46{
+        max-width: 46%;
+    }
+    .col-width-percent-lg-47{
+        max-width: 47%;
+    }
+    .col-width-percent-lg-48{
+        max-width: 48%;
+    }
+    .col-width-percent-lg-49{
+        max-width: 49%;
+    }
+    .col-width-percent-lg-50{
+        max-width: 50%;
+    }
+    .col-width-percent-lg-51{
+        max-width: 51%;
+    }
+    .col-width-percent-lg-52{
+        max-width: 52%;
+    }
+    .col-width-percent-lg-53{
+        max-width: 53%;
+    }
+    .col-width-percent-lg-54{
+        max-width: 54%;
+    }
+    .col-width-percent-lg-55{
+        max-width: 55%;
+    }
+    .col-width-percent-lg-56{
+        max-width: 56%;
+    }
+    .col-width-percent-lg-57{
+        max-width: 57%;
+    }
+    .col-width-percent-lg-58{
+        max-width: 58%;
+    }
+    .col-width-percent-lg-59{
+        max-width: 59%;
+    }
+    .col-width-percent-lg-60{
+        max-width: 60%;
+    }
+    .col-width-percent-lg-61{
+        max-width: 61%;
+    }
+    .col-width-percent-lg-62{
+        max-width: 62%;
+    }
+    .col-width-percent-lg-63{
+        max-width: 63%;
+    }
+    .col-width-percent-lg-64{
+        max-width: 64%;
+    }
+    .col-width-percent-lg-65{
+        max-width: 65%;
+    }
+    .col-width-percent-lg-66{
+        max-width: 66%;
+    }
+    .col-width-percent-lg-67{
+        max-width: 67%;
+    }
+    .col-width-percent-lg-68{
+        max-width: 68%;
+    }
+    .col-width-percent-lg-69{
+        max-width: 69%;
+    }
+    .col-width-percent-lg-70{
+        max-width: 70%;
+    }
+    .col-width-percent-lg-71{
+        max-width: 71%;
+    }
+    .col-width-percent-lg-72{
+        max-width: 72%;
+    }
+    .col-width-percent-lg-73{
+        max-width: 73%;
+    }
+    .col-width-percent-lg-74{
+        max-width: 74%;
+    }
+    .col-width-percent-lg-75{
+        max-width: 75%;
+    }
+    .col-width-percent-lg-76{
+        max-width: 76%;
+    }
+    .col-width-percent-lg-77{
+        max-width: 77%;
+    }
+    .col-width-percent-lg-78{
+        max-width: 78%;
+    }
+    .col-width-percent-lg-79{
+        max-width: 79%;
+    }
+    .col-width-percent-lg-80{
+        max-width: 80%;
+    }
+    .col-width-percent-lg-81{
+        max-width: 81%;
+    }
+    .col-width-percent-lg-82{
+        max-width: 82%;
+    }
+    .col-width-percent-lg-83{
+        max-width: 83%;
+    }
+    .col-width-percent-lg-84{
+        max-width: 84%;
+    }
+    .col-width-percent-lg-85{
+        max-width: 85%;
+    }
+    .col-width-percent-lg-86{
+        max-width: 86%;
+    }
+    .col-width-percent-lg-87{
+        max-width: 87%;
+    }
+    .col-width-percent-lg-88{
+        max-width: 88%;
+    }
+    .col-width-percent-lg-89{
+        max-width: 89%;
+    }
+    .col-width-percent-lg-90{
+        max-width: 90%;
+    }
+    .col-width-percent-lg-91{
+        max-width: 91%;
+    }
+    .col-width-percent-lg-92{
+        max-width: 92%;
+    }
+    .col-width-percent-lg-93{
+        max-width: 93%;
+    }
+    .col-width-percent-lg-94{
+        max-width: 94%;
+    }
+    .col-width-percent-lg-95{
+        max-width: 95%;
+    }
+    .col-width-percent-lg-96{
+        max-width: 96%;
+    }
+    .col-width-percent-lg-97{
+        max-width: 97%;
+    }
+    .col-width-percent-lg-98{
+        max-width: 98%;
+    }
+    .col-width-percent-lg-99{
+        max-width: 99%;
+    }
+    .col-width-percent-lg-100{
+        max-width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .col-width-percent-xl-1{
+        max-width: 1%;
+    }
+    .col-width-percent-xl-2{
+        max-width: 2%;
+    }
+    .col-width-percent-xl-3{
+        max-width: 3%;
+    }
+    .col-width-percent-xl-4{
+        max-width: 4%;
+    }
+    .col-width-percent-xl-5{
+        max-width: 5%;
+    }
+    .col-width-percent-xl-6{
+        max-width: 6%;
+    }
+    .col-width-percent-xl-7{
+        max-width: 7%;
+    }
+    .col-width-percent-xl-8{
+        max-width: 8%;
+    }
+    .col-width-percent-xl-9{
+        max-width: 9%;
+    }
+    .col-width-percent-xl-10{
+        max-width: 10%;
+    }
+    .col-width-percent-xl-11{
+        max-width: 11%;
+    }
+    .col-width-percent-xl-12{
+        max-width: 12%;
+    }
+    .col-width-percent-xl-13{
+        max-width: 13%;
+    }
+    .col-width-percent-xl-14{
+        max-width: 14%;
+    }
+    .col-width-percent-xl-15{
+        max-width: 15%;
+    }
+    .col-width-percent-xl-16{
+        max-width: 16%;
+    }
+    .col-width-percent-xl-17{
+        max-width: 17%;
+    }
+    .col-width-percent-xl-18{
+        max-width: 18%;
+    }
+    .col-width-percent-xl-19{
+        max-width: 19%;
+    }
+    .col-width-percent-xl-20{
+        max-width: 20%;
+    }
+    .col-width-percent-xl-21{
+        max-width: 21%;
+    }
+    .col-width-percent-xl-22{
+        max-width: 22%;
+    }
+    .col-width-percent-xl-23{
+        max-width: 23%;
+    }
+    .col-width-percent-xl-24{
+        max-width: 24%;
+    }
+    .col-width-percent-xl-25{
+        max-width: 25%;
+    }
+    .col-width-percent-xl-26{
+        max-width: 26%;
+    }
+    .col-width-percent-xl-27{
+        max-width: 27%;
+    }
+    .col-width-percent-xl-28{
+        max-width: 28%;
+    }
+    .col-width-percent-xl-29{
+        max-width: 29%;
+    }
+    .col-width-percent-xl-30{
+        max-width: 30%;
+    }
+    .col-width-percent-xl-31{
+        max-width: 31%;
+    }
+    .col-width-percent-xl-32{
+        max-width: 32%;
+    }
+    .col-width-percent-xl-33{
+        max-width: 33%;
+    }
+    .col-width-percent-xl-34{
+        max-width: 34%;
+    }
+    .col-width-percent-xl-35{
+        max-width: 35%;
+    }
+    .col-width-percent-xl-36{
+        max-width: 36%;
+    }
+    .col-width-percent-xl-37{
+        max-width: 37%;
+    }
+    .col-width-percent-xl-38{
+        max-width: 38%;
+    }
+    .col-width-percent-xl-39{
+        max-width: 39%;
+    }
+    .col-width-percent-xl-40{
+        max-width: 40%;
+    }
+    .col-width-percent-xl-41{
+        max-width: 41%;
+    }
+    .col-width-percent-xl-42{
+        max-width: 42%;
+    }
+    .col-width-percent-xl-43{
+        max-width: 43%;
+    }
+    .col-width-percent-xl-44{
+        max-width: 44%;
+    }
+    .col-width-percent-xl-45{
+        max-width: 45%;
+    }
+    .col-width-percent-xl-46{
+        max-width: 46%;
+    }
+    .col-width-percent-xl-47{
+        max-width: 47%;
+    }
+    .col-width-percent-xl-48{
+        max-width: 48%;
+    }
+    .col-width-percent-xl-49{
+        max-width: 49%;
+    }
+    .col-width-percent-xl-50{
+        max-width: 50%;
+    }
+    .col-width-percent-xl-51{
+        max-width: 51%;
+    }
+    .col-width-percent-xl-52{
+        max-width: 52%;
+    }
+    .col-width-percent-xl-53{
+        max-width: 53%;
+    }
+    .col-width-percent-xl-54{
+        max-width: 54%;
+    }
+    .col-width-percent-xl-55{
+        max-width: 55%;
+    }
+    .col-width-percent-xl-56{
+        max-width: 56%;
+    }
+    .col-width-percent-xl-57{
+        max-width: 57%;
+    }
+    .col-width-percent-xl-58{
+        max-width: 58%;
+    }
+    .col-width-percent-xl-59{
+        max-width: 59%;
+    }
+    .col-width-percent-xl-60{
+        max-width: 60%;
+    }
+    .col-width-percent-xl-61{
+        max-width: 61%;
+    }
+    .col-width-percent-xl-62{
+        max-width: 62%;
+    }
+    .col-width-percent-xl-63{
+        max-width: 63%;
+    }
+    .col-width-percent-xl-64{
+        max-width: 64%;
+    }
+    .col-width-percent-xl-65{
+        max-width: 65%;
+    }
+    .col-width-percent-xl-66{
+        max-width: 66%;
+    }
+    .col-width-percent-xl-67{
+        max-width: 67%;
+    }
+    .col-width-percent-xl-68{
+        max-width: 68%;
+    }
+    .col-width-percent-xl-69{
+        max-width: 69%;
+    }
+    .col-width-percent-xl-70{
+        max-width: 70%;
+    }
+    .col-width-percent-xl-71{
+        max-width: 71%;
+    }
+    .col-width-percent-xl-72{
+        max-width: 72%;
+    }
+    .col-width-percent-xl-73{
+        max-width: 73%;
+    }
+    .col-width-percent-xl-74{
+        max-width: 74%;
+    }
+    .col-width-percent-xl-75{
+        max-width: 75%;
+    }
+    .col-width-percent-xl-76{
+        max-width: 76%;
+    }
+    .col-width-percent-xl-77{
+        max-width: 77%;
+    }
+    .col-width-percent-xl-78{
+        max-width: 78%;
+    }
+    .col-width-percent-xl-79{
+        max-width: 79%;
+    }
+    .col-width-percent-xl-80{
+        max-width: 80%;
+    }
+    .col-width-percent-xl-81{
+        max-width: 81%;
+    }
+    .col-width-percent-xl-82{
+        max-width: 82%;
+    }
+    .col-width-percent-xl-83{
+        max-width: 83%;
+    }
+    .col-width-percent-xl-84{
+        max-width: 84%;
+    }
+    .col-width-percent-xl-85{
+        max-width: 85%;
+    }
+    .col-width-percent-xl-86{
+        max-width: 86%;
+    }
+    .col-width-percent-xl-87{
+        max-width: 87%;
+    }
+    .col-width-percent-xl-88{
+        max-width: 88%;
+    }
+    .col-width-percent-xl-89{
+        max-width: 89%;
+    }
+    .col-width-percent-xl-90{
+        max-width: 90%;
+    }
+    .col-width-percent-xl-91{
+        max-width: 91%;
+    }
+    .col-width-percent-xl-92{
+        max-width: 92%;
+    }
+    .col-width-percent-xl-93{
+        max-width: 93%;
+    }
+    .col-width-percent-xl-94{
+        max-width: 94%;
+    }
+    .col-width-percent-xl-95{
+        max-width: 95%;
+    }
+    .col-width-percent-xl-96{
+        max-width: 96%;
+    }
+    .col-width-percent-xl-97{
+        max-width: 97%;
+    }
+    .col-width-percent-xl-98{
+        max-width: 98%;
+    }
+    .col-width-percent-xl-99{
+        max-width: 99%;
+    }
+    .col-width-percent-xl-100{
+        max-width: 100%;
+    }
+}
+@media (min-width: 1400px) {
+    .col-width-percent-xxl-1{
+        max-width: 1%;
+    }
+    .col-width-percent-xxl-2{
+        max-width: 2%;
+    }
+    .col-width-percent-xxl-3{
+        max-width: 3%;
+    }
+    .col-width-percent-xxl-4{
+        max-width: 4%;
+    }
+    .col-width-percent-xxl-5{
+        max-width: 5%;
+    }
+    .col-width-percent-xxl-6{
+        max-width: 6%;
+    }
+    .col-width-percent-xxl-7{
+        max-width: 7%;
+    }
+    .col-width-percent-xxl-8{
+        max-width: 8%;
+    }
+    .col-width-percent-xxl-9{
+        max-width: 9%;
+    }
+    .col-width-percent-xxl-10{
+        max-width: 10%;
+    }
+    .col-width-percent-xxl-11{
+        max-width: 11%;
+    }
+    .col-width-percent-xxl-12{
+        max-width: 12%;
+    }
+    .col-width-percent-xxl-13{
+        max-width: 13%;
+    }
+    .col-width-percent-xxl-14{
+        max-width: 14%;
+    }
+    .col-width-percent-xxl-15{
+        max-width: 15%;
+    }
+    .col-width-percent-xxl-16{
+        max-width: 16%;
+    }
+    .col-width-percent-xxl-17{
+        max-width: 17%;
+    }
+    .col-width-percent-xxl-18{
+        max-width: 18%;
+    }
+    .col-width-percent-xxl-19{
+        max-width: 19%;
+    }
+    .col-width-percent-xxl-20{
+        max-width: 20%;
+    }
+    .col-width-percent-xxl-21{
+        max-width: 21%;
+    }
+    .col-width-percent-xxl-22{
+        max-width: 22%;
+    }
+    .col-width-percent-xxl-23{
+        max-width: 23%;
+    }
+    .col-width-percent-xxl-24{
+        max-width: 24%;
+    }
+    .col-width-percent-xxl-25{
+        max-width: 25%;
+    }
+    .col-width-percent-xxl-26{
+        max-width: 26%;
+    }
+    .col-width-percent-xxl-27{
+        max-width: 27%;
+    }
+    .col-width-percent-xxl-28{
+        max-width: 28%;
+    }
+    .col-width-percent-xxl-29{
+        max-width: 29%;
+    }
+    .col-width-percent-xxl-30{
+        max-width: 30%;
+    }
+    .col-width-percent-xxl-31{
+        max-width: 31%;
+    }
+    .col-width-percent-xxl-32{
+        max-width: 32%;
+    }
+    .col-width-percent-xxl-33{
+        max-width: 33%;
+    }
+    .col-width-percent-xxl-34{
+        max-width: 34%;
+    }
+    .col-width-percent-xxl-35{
+        max-width: 35%;
+    }
+    .col-width-percent-xxl-36{
+        max-width: 36%;
+    }
+    .col-width-percent-xxl-37{
+        max-width: 37%;
+    }
+    .col-width-percent-xxl-38{
+        max-width: 38%;
+    }
+    .col-width-percent-xxl-39{
+        max-width: 39%;
+    }
+    .col-width-percent-xxl-40{
+        max-width: 40%;
+    }
+    .col-width-percent-xxl-41{
+        max-width: 41%;
+    }
+    .col-width-percent-xxl-42{
+        max-width: 42%;
+    }
+    .col-width-percent-xxl-43{
+        max-width: 43%;
+    }
+    .col-width-percent-xxl-44{
+        max-width: 44%;
+    }
+    .col-width-percent-xxl-45{
+        max-width: 45%;
+    }
+    .col-width-percent-xxl-46{
+        max-width: 46%;
+    }
+    .col-width-percent-xxl-47{
+        max-width: 47%;
+    }
+    .col-width-percent-xxl-48{
+        max-width: 48%;
+    }
+    .col-width-percent-xxl-49{
+        max-width: 49%;
+    }
+    .col-width-percent-xxl-50{
+        max-width: 50%;
+    }
+    .col-width-percent-xxl-51{
+        max-width: 51%;
+    }
+    .col-width-percent-xxl-52{
+        max-width: 52%;
+    }
+    .col-width-percent-xxl-53{
+        max-width: 53%;
+    }
+    .col-width-percent-xxl-54{
+        max-width: 54%;
+    }
+    .col-width-percent-xxl-55{
+        max-width: 55%;
+    }
+    .col-width-percent-xxl-56{
+        max-width: 56%;
+    }
+    .col-width-percent-xxl-57{
+        max-width: 57%;
+    }
+    .col-width-percent-xxl-58{
+        max-width: 58%;
+    }
+    .col-width-percent-xxl-59{
+        max-width: 59%;
+    }
+    .col-width-percent-xxl-60{
+        max-width: 60%;
+    }
+    .col-width-percent-xxl-61{
+        max-width: 61%;
+    }
+    .col-width-percent-xxl-62{
+        max-width: 62%;
+    }
+    .col-width-percent-xxl-63{
+        max-width: 63%;
+    }
+    .col-width-percent-xxl-64{
+        max-width: 64%;
+    }
+    .col-width-percent-xxl-65{
+        max-width: 65%;
+    }
+    .col-width-percent-xxl-66{
+        max-width: 66%;
+    }
+    .col-width-percent-xxl-67{
+        max-width: 67%;
+    }
+    .col-width-percent-xxl-68{
+        max-width: 68%;
+    }
+    .col-width-percent-xxl-69{
+        max-width: 69%;
+    }
+    .col-width-percent-xxl-70{
+        max-width: 70%;
+    }
+    .col-width-percent-xxl-71{
+        max-width: 71%;
+    }
+    .col-width-percent-xxl-72{
+        max-width: 72%;
+    }
+    .col-width-percent-xxl-73{
+        max-width: 73%;
+    }
+    .col-width-percent-xxl-74{
+        max-width: 74%;
+    }
+    .col-width-percent-xxl-75{
+        max-width: 75%;
+    }
+    .col-width-percent-xxl-76{
+        max-width: 76%;
+    }
+    .col-width-percent-xxl-77{
+        max-width: 77%;
+    }
+    .col-width-percent-xxl-78{
+        max-width: 78%;
+    }
+    .col-width-percent-xxl-79{
+        max-width: 79%;
+    }
+    .col-width-percent-xxl-80{
+        max-width: 80%;
+    }
+    .col-width-percent-xxl-81{
+        max-width: 81%;
+    }
+    .col-width-percent-xxl-82{
+        max-width: 82%;
+    }
+    .col-width-percent-xxl-83{
+        max-width: 83%;
+    }
+    .col-width-percent-xxl-84{
+        max-width: 84%;
+    }
+    .col-width-percent-xxl-85{
+        max-width: 85%;
+    }
+    .col-width-percent-xxl-86{
+        max-width: 86%;
+    }
+    .col-width-percent-xxl-87{
+        max-width: 87%;
+    }
+    .col-width-percent-xxl-88{
+        max-width: 88%;
+    }
+    .col-width-percent-xxl-89{
+        max-width: 89%;
+    }
+    .col-width-percent-xxl-90{
+        max-width: 90%;
+    }
+    .col-width-percent-xxl-91{
+        max-width: 91%;
+    }
+    .col-width-percent-xxl-92{
+        max-width: 92%;
+    }
+    .col-width-percent-xxl-93{
+        max-width: 93%;
+    }
+    .col-width-percent-xxl-94{
+        max-width: 94%;
+    }
+    .col-width-percent-xxl-95{
+        max-width: 95%;
+    }
+    .col-width-percent-xxl-96{
+        max-width: 96%;
+    }
+    .col-width-percent-xxl-97{
+        max-width: 97%;
+    }
+    .col-width-percent-xxl-98{
+        max-width: 98%;
+    }
+    .col-width-percent-xxl-99{
+        max-width: 99%;
+    }
+    .col-width-percent-xxl-100{
+        max-width: 100%;
+    }
+}
+/* Info: font size END */

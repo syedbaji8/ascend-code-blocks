@@ -1,0 +1,1877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ascendion Metal Application Code Snippets</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/ascard.css">
+    <link rel="stylesheet" href="./assets/css/obtn-v24_12_04.css">
+    <link rel="stylesheet" href="./assets/css/otable-table-v24_12_04.css">
+    <link rel="stylesheet" href="./assets/css/col-width-percent.css">
+    <link rel="stylesheet" href="./assets/css/form-group-v24_12_04.css">
+    <link rel="stylesheet" href="./assets/css/FontSize-v24_12_06.css">
+    <link rel="stylesheet" href="./assets/css/LineHeight-v25_01_21.css">
+    <link rel="stylesheet" href="./assets/css/LineLimit-v25_02_06.css">
+    <link rel="stylesheet" href="./assets/css/main-navigation.css">
+    <link rel="stylesheet" href="./assets/css/ascend-accordion.css">
+    <link rel="stylesheet" href="./assets/css/TextOnImage-v24_12_18.css">
+    <link rel="stylesheet" href="./assets/css/BoxShadowBorders-v24_12_19.css">
+    <link rel="stylesheet" href="./assets/css/loaders-and-progress.css">
+    <link rel="stylesheet" href="./assets/css/master.css">
+    <!-- Info:< snippets styles -->
+    <link rel="stylesheet" href="./assets/css/snippet-styles.css">
+    <!-- Info:> snippets styles -->
+    <!-- Info: JS part -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Info:< fontawesome kit -->
+    <script src="https://kit.fontawesome.com/dd80bb9c19.js" crossorigin="anonymous"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="main-navigation-section one-col-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12">
+                        <a class="navbar-brand m-0 p-0" href="#">
+                            <img src="./assets/images/metal-logo-new.svg" alt="" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <!-- <span class="navbar-toggler-icon"></span> -->
+                            <i class="fa-regular fa-magnifying-glass"></i>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <!-- <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">Disabled</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" onclick="openNav()">Link</a>
+                                </li>
+                            </ul> -->
+                            <div class="col-lg-5 p-0 mx-auto d-flex flex-row flex-wrap">
+                                <div class="form-group flex-grow-1 m-0">
+                                    <span class="has-icon has-autocomplete">
+                                        <input class="form-control" type="input"
+                                            placeholder="Search by Candidate/Requisition" aria-label="Search">
+                                        <span class="autocompletedropdowns max-height-400" aria-expanded="false">
+                                            <ul class="m-0 p-0">
+                                                <li class="item-category">
+                                                    Candidates
+                                                </li>
+                                                <li>
+                                                    <div class="item item--inputsearch col-12 p-0 py-1">
+                                                        <div class="item-image">
+                                                            <figure class="item--image m-0">
+                                                                <img class="img-fluid"
+                                                                    src="./assets/images/sampimage.jpg"
+                                                                    alt="A beautiful scenery">
+                                                            </figure>
+                                                        </div>
+                                                        <div class="item-detailspart">
+                                                            <h6 class="item__header m-0 mb-0">Nisha kapoor</h6>
+                                                            <p class="item__designation m-0 p-0">UX/UI Designer</p>
+                                                            <p class="item__emailid m-0 p-0">nisha.kapoor@ascendion.com
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item item--inputsearch col-12 p-0 py-1">
+                                                        <div class="item-image">
+                                                            <figure class="item--image m-0">
+                                                                <img class="img-fluid"
+                                                                    src="./assets/images/sampimage.jpg"
+                                                                    alt="A beautiful scenery">
+                                                            </figure>
+                                                        </div>
+                                                        <div class="item-detailspart">
+                                                            <h6 class="item__header m-0 mb-0">Nisha kapoor</h6>
+                                                            <p class="item__designation m-0 p-0">UX/UI Designer</p>
+                                                            <p class="item__emailid m-0 p-0">nisha.kapoor@ascendion.com
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item item--inputsearch col-12 p-0 py-1">
+                                                        <div class="item-image">
+                                                            <figure class="item--image m-0">
+                                                                <img class="img-fluid"
+                                                                    src="./assets/images/sampimage.jpg"
+                                                                    alt="A beautiful scenery">
+                                                            </figure>
+                                                        </div>
+                                                        <div class="item-detailspart">
+                                                            <h6 class="item__header m-0 mb-0">Nisha kapoor</h6>
+                                                            <p class="item__designation m-0 p-0">UX/UI Designer</p>
+                                                            <p class="item__emailid m-0 p-0">nisha.kapoor@ascendion.com
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="item-category">
+                                                    Requisitions
+                                                </li>
+                                                <li>
+                                                    <div class="item item--inputsearch col-12 p-0 py-1">
+                                                        <div class="item-image">
+                                                            <figure class="item--image m-0">
+                                                                <img class="img-fluid"
+                                                                    src="./assets/images/sampimage.jpg"
+                                                                    alt="A beautiful scenery">
+                                                            </figure>
+                                                        </div>
+                                                        <div class="item-detailspart">
+                                                            <h6 class="item__header m-0 mb-0">Nisha kapoor</h6>
+                                                            <p class="item__designation m-0 p-0">UX/UI Designer</p>
+                                                            <p class="item__emailid m-0 p-0">nisha.kapoor@ascendion.com
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </span>
+                                        <i class="con fa-regular fa-magnifying-glass pr-2 font-20"></i>
+                                    </span>
+                                </div>
+                                <button class="add-candidate-or-requisition-button has-dropdown bg-none border-0 p-0 m-0 font-24 text-color-ascend_green ml-3"
+                                    type="submit">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <span class="add-candidate-dropdown p-0">
+                                        <ul class="m-0 p-0">
+                                            <li class="px-2 py-1"> <i class="fa-regular fa-user-plus mr-2"></i> Add Candidate</li>
+                                            <li class="px-2 py-1"> <i class="fa-regular fa-rectangle-list mr-2"></i> Add Requisition</li>
+                                        </ul>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="nav-profile ml-auto">
+                            <div class="nav-profile_image pr-2">
+                                <span class="nav-profile_oval">
+                                    <img class="img-fluid" src="./assets/images/profile-pic.jpg" alt="">
+                                </span>
+                            </div>
+                            <div class="nav-profile_nameNdesignation">
+                                <div class="nav-profile_name">Dedeepya Gonugunta</div>
+                                <div class="nav-profile_designation">Senior Recruiter</div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="main-layout-section two-col-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <article
+                        class="inrow-colgroup col-lg-12 p-0 inrow-1 col-wrapper d-flex flex-row flex-wrap justify-content-between">
+                        <div class="layout-column-left col-lg-1 p-0 column1">
+                            <aside class="main-aside col-lg-12 p-0 pt-4 h-100">
+                                <ul class="m-0 p-0">
+                                    <li class="level1 text-center mb-4 active">
+                                        <a href="#" class="d-inline-block p-2">
+                                            <i class="fa-regular fa-microchip-ai font-20"></i>
+                                        </a>
+                                    </li>
+                                    <li class="level1 text-center mb-4">
+                                        <a href="#" class="d-inline-block text-color-white p-2">
+                                            <i class="fa-regular fa-microchip-ai font-20"></i>
+                                        </a>
+                                    </li>
+                                    <li class="level1 text-center mb-4">
+                                        <a href="#" class="d-inline-block text-color-white p-2">
+                                            <i class="fa-regular fa-microchip-ai font-20"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                        <div class="layout-column-right col-lg-11 px-0 py-0 column2">
+                            <div class="inrow-page-header2 page-header bsb-1 col-lg-12 px-3 py-2 mb-0 d-flex flex-row flex-wrap align-items-start justify-content-between">
+                                <div class="col-lg-9 p-0">
+                                    <h3 class="page-header__title mb-1">
+                                        <span class="page-header--breadcrumb level1 d-inline-block">Requisition Search</span>
+                                        <!-- <span class="page-header--breadcrumb level2 angle-left d-inline-block">Requisition Search</span> -->
+                                        <span class="page-header--breadcrumb level3 angle-left d-inline-block pl-1">Front-End Developer - 56078923</span>
+                                    </h3>
+                                    <p class="page-header__details-line one m-0 p-0 mb-1">
+                                        TechInnovate Solutions <b class="text-color-blue-thin-dark">●</b>
+                                        <span class="details-line1__status px-2 py-1 d-inline-block">Open</span>
+                                    </p>
+                                    <p class="page-header__details-line two m-0 p-0">Bengaluru | Pune</p>
+                                </div>
+                                <div class="col-lg-3 p-0 d-flex align-items-start justify-content-end">
+                                    <button class="page-header--actionbtn border-0 bg-color-gray-thin-light ml-auto p-0">
+                                        <i class="fa-regular fa-circle-ellipsis font-24"></i>
+                                    </button>
+                                    <button class="page-header--actionbtn border-0 bg-color-gray-thin-light ml-3">
+                                        <i class="fa-regular fa-minus align-middle"></i>
+                                    </button>
+                                    <button class="page-header--actionbtn border-0 bg-color-gray-thin-light ml-3">
+                                        <i class="fa-regular fa-times align-middle"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="inrow-page-header1 page-header bsb-1 col-lg-12 px-3 py-2 mb-3 d-flex flex-row flex-wrap align-items-center justify-content-between">
+                                <div class="col-lg-4 p-0">
+                                    <h3 class="page-header__title">
+                                        <span>Add Candidate</span>
+                                    </h3>
+                                </div>
+                                <div class="col-lg-4 p-0 text-center">
+                                    <div class="obtn-group" role="group" aria-label="Basic example">
+                                        <button type="button" class="obtn obtn-secondary-outline obtn-sm">Left</button>
+                                        <!-- <button type="button" class="obtn obtn-secondary-outline obtn-sm">Middle</button> -->
+                                        <button type="button"
+                                            class="obtn obtn-secondary-outline obtn-sm active">Right</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 p-0">
+                                    <div class="form-group m-0 p-0">
+                                        <span class="has-icon has-autocomplete">
+                                            <input type="text" id="Searchsomething" class="form-control"
+                                                placeholder="Select Requisition Name" value="">
+                                            <span class="autocompletedropdowns max-height-200" aria-expanded="false">
+                                                <ul class="m-0 p-0">
+                                                    <li>Senior Full Stack Developer</li>
+                                                    <li>DevOps Engineer</li>
+                                                    <li>Content Marketing Manager</li>
+                                                    <li>Talent Acquisition Specialist</li>
+                                                </ul>
+                                            </span>
+                                            <i class="con fa-regular fa-angle-down pr-2" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inrow-accordions col-lg-12 p-3">
+                                <div class="ascend-accordion col-lg-12 p-0 mb-2">
+                                    <button class="ascend-accordion--header fontfam-nm-medium">Ascendion Logos (SVG)</button>
+                                    <div class="ascend-accordion-panel ascend-accordion--body col-lg-12 p-0 px-3">
+                                        <div class="col-lg-12 p-0 d-flex flex-row flex-wrap mb-4">
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3">
+                                                <!-- <h4 class="m-0 p-0 mb-3">
+                                                    Type SVG
+                                                </h4> -->
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="actual-content-wrapper col-lg-12 p-0 py-3 d-flex justify-content-start align-items-end">
+                                                    <span class="component-container-span d-inline-block mr-5 text-center">
+                                                        <a href="./assets/images/ascendion-logo-black.svg" download="ascendion-logo-black.svg" target="_blank">
+                                                            <img src="./assets/images/logo-asc-favicon.svg" alt="Download SVG">
+                                                        </a>
+                                                        <br><br>
+                                                        fav logo
+                                                    </span>
+                                                    <span class="component-container-span d-inline-block mr-5 text-center">
+                                                        <a href="./assets/images/ascendion-logo-large.svg" download="ascendion-logo-large.svg" target="_blank">
+                                                            <img src="./assets/images/ascendion-logo-large.svg" alt="Download SVG">
+                                                        </a>
+                                                        <br><br>
+                                                        Large logo
+                                                    </span>
+                                                    <span class="component-container-span d-inline-block mr-5 text-center">
+                                                        <a href="./assets/images/ascendion-logo-black.svg" download="ascendion-logo-black.svg" target="_blank">
+                                                            <img src="./assets/images/ascendion-logo-black.svg" alt="Download SVG">
+                                                        </a>
+                                                        <br><br>
+                                                        logo in Black
+                                                    </span>
+                                                    <span class="component-container-span d-inline-block mr-5 text-center">
+                                                        <a class="bg-dark d-inline-block" href="./assets/images/ascendion-logo-white.svg" download="ascendion-logo-white.svg" target="_blank">
+                                                            <img src="./assets/images/ascendion-logo-white.svg" alt="Download SVG">
+                                                        </a>
+                                                        <br><br>
+                                                        logo in White
+                                                    </span>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ascend-accordion col-lg-12 p-0 mb-2">
+                                    <button class="ascend-accordion--header fontfam-nm-medium">Metal Logos & Images (SVG)</button>
+                                    <div class="ascend-accordion-panel ascend-accordion--body col-lg-12 p-0 px-3">
+                                        <div class="col-lg-12 p-0 d-flex flex-row flex-wrap mb-4">
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3">
+                                                <!-- <h4 class="m-0 p-0 mb-3">
+                                                    Type SVG
+                                                </h4> -->
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="actual-content-wrapper col-lg-12 p-0 py-3 d-flex justify-content-start align-items-end">
+                                                    <span class="component-container-span d-inline-block text-center mr-5">
+                                                        <a href="./assets/images/metal-logo-new.svg" download="metal-logo-new.svg" target="_blank">
+                                                            <img src="./assets/images/metal-logo-black.svg" alt="Download SVG" style="max-width: 130px;">
+                                                        </a>
+                                                        <br><br>
+                                                        Metal logo in Black
+                                                    </span>
+                                                    <span class="component-container-span d-inline-block text-center mr-5">
+                                                        <a class="bg-dark d-inline-block" href="./assets/images/metal-logo-new.svg" download="metal-logo-new.svg" target="_blank">
+                                                            <img src="./assets/images/metal-logo-new.svg" alt="metal-logo-new SVG">
+                                                        </a>
+                                                        <br><br>
+                                                        Metal logo in White
+                                                    </span>
+                                                    <span class="component-container-span d-inline-block text-center mr-5">
+                                                        <a class="d-inline-block" href="./assets/images/resume-image.svg" download="resume-image.svg" target="_blank">
+                                                            <img src="./assets/images/resume-image.svg" alt="resume-image SVG" style="max-width: 150px;">
+                                                        </a>
+                                                        <br><br>
+                                                        Resume image
+                                                    </span>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ascend-accordion col-lg-12 p-0 mb-2">
+                                    <button class="ascend-accordion--header fontfam-nm-medium">Buttons and Button
+                                        groups</button>
+                                    <div class="ascend-accordion-panel ascend-accordion--body col-lg-12 p-0 px-3">
+                                        <div class="col-lg-12 p-0 d-flex flex-row flex-wrap mb-4">
+                                            <div class="actual-content-wrapper col-lg-6 p-0 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Button Primary
+                                                </h4>
+                                                <span
+                                                    class="component-container-span bsr1 d-inline-block text-center px-3 ">
+                                                    <button type="button" class="obtn obtn-lg obtn-primary"> Submit
+                                                    </button>
+                                                    <br>
+                                                    <span class="snip-label">Large button</span>
+                                                </span>
+                                                <span
+                                                    class="component-container-span bsr1 d-inline-block text-center px-3 ">
+                                                    <button type="button" class="obtn obtn-reg obtn-primary"> Submit
+                                                    </button>
+                                                    <br>
+                                                    <span class="snip-label">Regular/Medium button</span>
+                                                </span>
+                                                <span
+                                                    class="component-container-span bsr1 d-inline-block text-center px-3 ">
+                                                    <button type="button" class="obtn obtn-sm obtn-primary"> Submit
+                                                    </button>
+                                                    <br>
+                                                    <span class="snip-label">Small button</span>
+                                                </span>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-6 p-0 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Button Primary Outline
+                                                </h4>
+                                                <span
+                                                    class="component-container-span bsr1 d-inline-block text-center px-3 ">
+                                                    <button type="button" class="obtn obtn-lg obtn-primary-outline">
+                                                        Clear
+                                                    </button>
+                                                    <br>
+                                                    <span class="snip-label">Large button</span>
+                                                </span>
+                                                <span
+                                                    class="component-container-span bsr1 d-inline-block text-center px-3 ">
+                                                    <button type="button" class="obtn obtn-reg obtn-primary-outline">
+                                                        Clear
+                                                    </button>
+                                                    <br>
+                                                    <span class="snip-label">Regular/Medium button</span>
+                                                </span>
+                                                <span
+                                                    class="component-container-span bsr1 d-inline-block text-center px-3 ">
+                                                    <button type="button" class="obtn obtn-sm obtn-primary-outline">
+                                                        Clear
+                                                    </button>
+                                                    <br>
+                                                    <span class="snip-label">Small button</span>
+                                                </span>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-6 p-0 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Button Secondary
+                                                </h4>
+                                                <span
+                                                    class="component-container-span bsr1 d-inline-block text-center px-3 ">
+                                                    <button type="button" class="obtn obtn-lg obtn-secondary"> Cancel
+                                                    </button>
+                                                    <br>
+                                                    <span class="snip-label">Large button</span>
+                                                </span>
+                                                <span
+                                                    class="component-container-span bsr1 d-inline-block text-center px-3 ">
+                                                    <button type="button" class="obtn obtn-reg obtn-secondary"> Cancel
+                                                    </button>
+                                                    <br>
+                                                    <span class="snip-label">Regular/Medium button</span>
+                                                </span>
+                                                <span
+                                                    class="component-container-span bsr1 d-inline-block text-center px-3">
+                                                    <button type="button" class="obtn obtn-sm obtn-secondary"> Cancel
+                                                    </button>
+                                                    <br>
+                                                    <span class="snip-label">Small button</span>
+                                                </span>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-6 p-0 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Button Secondary Outline
+                                                </h4>
+                                                <span
+                                                    class="component-container-span bsr1 d-inline-block text-center px-3">
+                                                    <button type="button" class="obtn obtn-lg obtn-secondary-outline">
+                                                        Cancel
+                                                    </button>
+                                                    <br>
+                                                    <span class="snip-label">Large button</span>
+                                                </span>
+                                                <span
+                                                    class="component-container-span bsr1 d-inline-block text-center px-3">
+                                                    <button type="button" class="obtn obtn-reg obtn-secondary-outline">
+                                                        Cancel
+                                                    </button>
+                                                    <br>
+                                                    <span class="snip-label">Regular/Medium button</span>
+                                                </span>
+                                                <span
+                                                    class="component-container-span bsr1 d-inline-block text-center px-3">
+                                                    <button type="button" class="obtn obtn-sm obtn-secondary-outline">
+                                                        Cancel
+                                                    </button>
+                                                    <br>
+                                                    <span class="snip-label">Small button</span>
+                                                </span>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-6 p-0 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Button group Primary
+                                                </h4>
+                                                <span class="component-container-span d-block text-left px-3 mb-4">
+                                                    <div class="obtn-group" role="group" aria-label="Basic example">
+                                                        <button type="button"
+                                                            class="obtn obtn-primary obtn-lg">Left</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-primary obtn-lg">Middle</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-primary obtn-lg">Right</button>
+                                                    </div>
+                                                    <br>
+                                                    <span class="snip-label">Large button</span>
+                                                </span>
+                                                <span class="component-container-span d-block text-left px-3 mb-4">
+                                                    <div class="obtn-group" role="group" aria-label="Basic example">
+                                                        <button type="button"
+                                                            class="obtn obtn-primary obtn-reg">Left</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-primary obtn-reg">Middle</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-primary obtn-reg">Right</button>
+                                                    </div>
+                                                    <br>
+                                                    <span class="snip-label">Regular/Medium button</span>
+                                                </span>
+                                                <span class="component-container-span d-block text-left px-3 mb-4">
+                                                    <div class="obtn-group" role="group" aria-label="Basic example">
+                                                        <button type="button"
+                                                            class="obtn obtn-primary obtn-sm">Left</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-primary obtn-sm">Middle</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-primary obtn-sm">Right</button>
+                                                    </div>
+                                                    <br>
+                                                    <span class="snip-label">Small button</span>
+                                                </span>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-6 p-0 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Button group Primary Outline
+                                                </h4>
+                                                <span class="component-container-span d-block text-left px-3 mb-4">
+                                                    <div class="obtn-group" role="group" aria-label="Basic example">
+                                                        <button type="button"
+                                                            class="obtn obtn-primary-outline obtn-lg active">Left</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-primary-outline obtn-lg">Middle</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-primary-outline obtn-lg">Right</button>
+                                                    </div>
+                                                    <br>
+                                                    <span class="snip-label">Large button</span>
+                                                </span>
+                                                <span class="component-container-span d-block text-left px-3 mb-4">
+                                                    <div class="obtn-group" role="group" aria-label="Basic example">
+                                                        <button type="button"
+                                                            class="obtn obtn-primary-outline obtn-reg">Left</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-primary-outline obtn-reg active">Middle</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-primary-outline obtn-reg">Right</button>
+                                                    </div>
+                                                    <br>
+                                                    <span class="snip-label">Regular/Medium button</span>
+                                                </span>
+                                                <span class="component-container-span d-block text-left px-3 mb-4">
+                                                    <div class="obtn-group" role="group" aria-label="Basic example">
+                                                        <button type="button"
+                                                            class="obtn obtn-primary-outline obtn-sm">Left</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-primary-outline obtn-sm">Middle</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-primary-outline obtn-sm active">Right</button>
+                                                    </div>
+                                                    <br>
+                                                    <span class="snip-label">Small button</span>
+                                                </span>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-6 p-0 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Button group Secondary Outline
+                                                </h4>
+                                                <span class="component-container-span d-block text-left px-3 mb-4">
+                                                    <div class="obtn-group" role="group" aria-label="Basic example">
+                                                        <button type="button"
+                                                            class="obtn obtn-secondary-outline obtn-lg active">Left</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-secondary-outline obtn-lg">Middle</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-secondary-outline obtn-lg">Right</button>
+                                                    </div>
+                                                    <br>
+                                                    <span class="snip-label">Large button</span>
+                                                </span>
+                                                <span class="component-container-span d-block text-left px-3 mb-4">
+                                                    <div class="obtn-group" role="group" aria-label="Basic example">
+                                                        <button type="button"
+                                                            class="obtn obtn-secondary-outline obtn-reg">Left</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-secondary-outline obtn-reg active">Middle</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-secondary-outline obtn-reg">Right</button>
+                                                    </div>
+                                                    <br>
+                                                    <span class="snip-label">Regular/Medium button</span>
+                                                </span>
+                                                <span class="component-container-span d-block text-left px-3 mb-4">
+                                                    <div class="obtn-group" role="group" aria-label="Basic example">
+                                                        <button type="button"
+                                                            class="obtn obtn-secondary-outline obtn-sm">Left</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-secondary-outline obtn-sm">Middle</button>
+                                                        <button type="button"
+                                                            class="obtn obtn-secondary-outline obtn-sm active">Right</button>
+                                                    </div>
+                                                    <br>
+                                                    <span class="snip-label">Small button</span>
+                                                </span>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ascend-accordion col-lg-12 p-0 mb-2">
+                                    <button class="ascend-accordion--header fontfam-nm-medium active">Form groups / Form fields / Input
+                                        fields</button>
+                                    <div class="ascend-accordion-panel ascend-accordion--body col-lg-12 p-0 px-3">
+                                        <div class="col-lg-12 p-0 d-flex flex-row flex-wrap mb-4">
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3">
+                                                <!-- Info:< Your content -->
+                                                <h4 class="form-fields-group-head px-2 py-1 mb-3">Basic Details</h4>
+                                                <!--Info: class options for "has-advance-search" are
+                                                 active--search-gen, 
+                                                 active--search-ai 
+                                                 -->
+                                                <div
+                                                    class="form-group input-group has-advance-search active--search-ai m-0 mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="dropdown-toggle py-1 pl-2 pr-4" type="button"
+                                                            data-toggle="dropdown" aria-haspopup="true"
+                                                            aria-expanded="false">
+                                                            <span class="placeholdertext">Search Type</span>
+                                                            <i
+                                                                class="dropdown-toggle_icon fa-regular fa-angle-down font-16"></i>
+                                                        </button>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item" href="#">Exact</a>
+                                                            <a class="dropdown-item" href="#">Any Words</a>
+                                                            <a class="dropdown-item" href="#">Something else here</a>
+                                                            <div role="separator" class="dropdown-divider"></div>
+                                                            <a class="dropdown-item" href="#">Separated link</a>
+                                                        </div>
+                                                    </div>
+                                                    <span class="has-icon flex-grow-1">
+                                                        <input type="text" class="form-control"
+                                                            aria-label="Text input with dropdown button"
+                                                            placeholder="Search for Keywords">
+                                                        <button
+                                                            class="con advance-search--toggler input-filter-icon input-filter-icon--right inicon-2 bg-none border-0 pe-all py-0 px-2">
+                                                            <i class="fa-regular fa-bars-filter font-16"></i>
+                                                        </button>
+                                                        <button
+                                                            class="con input-search-icon input-search-icon--right inicon-1 obtn obtn-primary pe-all py-0 px-2">
+                                                            <i
+                                                                class="fa-regular fa-search font-16 text-color-white"></i>
+                                                        </button>
+                                                    </span>
+                                                    <div class="input-group-ontop justify-content-start px-3">
+                                                        <label class="form-check-label mr-3">
+                                                            <input type="radio" class="align-middle mr-1"
+                                                                name="optradio"> Top matches
+                                                        </label>
+                                                        <label class="form-check-label mr-3">
+                                                            <input type="radio" class="align-middle mr-1"
+                                                                name="optradio"> Skills 70% | Job Title 30%
+                                                        </label>
+                                                        <label class="form-check-label mr-3">
+                                                            <input type="radio" class="align-middle mr-1"
+                                                                name="optradio"> Job Title 70% | Skills 30%
+                                                        </label>
+                                                        <label class="form-check-label mr-3">
+                                                            <input type="radio" class="align-middle mr-1"
+                                                                name="optradio"> Skills 100%
+                                                        </label>
+                                                        <label class="form-check-label mr-3">
+                                                            <input type="radio" class="align-middle mr-1"
+                                                                name="optradio"> Job Title 100%
+                                                        </label>
+                                                    </div>
+                                                    <div class="advance-search col-lg-12 p-0">
+                                                        <div class="advance-search--header col-lg-12 px-3 py-2">
+                                                            <h3 class="advance-search--header_text m-0">
+                                                                <span>Advance Search</span>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="advance-search--body col-lg-12 p-0">
+                                                            <div class="inrow-1 col-lg-12 p-3">
+                                                                <div
+                                                                    class="incolumn-left col-lg-6 p-0 d-flex flex-row flex-wrap">
+                                                                    <div
+                                                                        class="actual-content-wrapper col-lg-6 p-0 pr-2">
+                                                                        <div class="form-group">
+                                                                            <label for="sel1"> Location </label>
+                                                                            <span class="has-icon">
+                                                                                <select class="form-control" id="sel1"
+                                                                                    required="">
+                                                                                    <option value="" disabled=""
+                                                                                        selected="">Location...
+                                                                                    </option>
+                                                                                    <option>Employment 2</option>
+                                                                                    <option>Employment 3</option>
+                                                                                    <option>Employment 4</option>
+                                                                                </select>
+                                                                                <i class="con fa-regular fa-angle-down pr-1"
+                                                                                    aria-hidden="true"></i>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="actual-content-wrapper col-lg-6 p-0 pl-2">
+                                                                        <div class="form-group">
+                                                                            <label for="JobTitle"> <span
+                                                                                    class="mandatory-field">*</span>
+                                                                                Resume <span class="adinfo">(Last
+                                                                                    Modified)</span> </label>
+                                                                            <span class="has-icon">
+                                                                                <input type="text" id="JobTitle"
+                                                                                    class="form-control"
+                                                                                    placeholder="Resume Date" value="">
+                                                                                <i
+                                                                                    class="con fa-regular fa-calendar mr-2"></i>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="incolumn-right col-lg-6 p-0"></div>
+                                                            </div>
+                                                            <div
+                                                                class="inrow-2 col-lg-12 px-3 py-2 mb-3 justify-content-end">
+                                                                <button type="button"
+                                                                    class="obtn obtn-reg obtn-primary-outline">Clear</button>
+                                                                <button type="button"
+                                                                    class="obtn obtn-reg obtn-primary ml-3">Search</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group form__input__file">
+                                                    <label for="JobTitle">File Upload</label>
+                                                    <span class="has-icon">
+                                                        <label for="fileupload1"
+                                                            class="input-fileupload-type1 p-3 text-center">
+                                                            <input type="file" id="fileupload1"
+                                                                class="form-control invisible" value="">
+                                                            <p class="m-0 p-0">Drag and drop resume here to upload</p>
+                                                            <p class="m-0 p-0 pb-2 pt-1">or</p>
+                                                            <button class="obtn obtn-reg obtn-primary pe-none">Select
+                                                                File to upload</button>
+                                                        </label>
+                                                    </span>
+                                                </div>
+                                                <!-- Info:> Your content -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-12 p-0">
+                                                <h4 class="form-fields-group-head px-2 py-1 mb-3">Requisition Details
+                                                </h4>
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-6 p-0 pr-2 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="form-group form__input__text">
+                                                    <label for="JobTitle"> <span class="mandatory-field">*</span> Job Title <span class="adinfo">(Input "text" type)</span> </label>
+                                                    <span class="has-icon">
+                                                        <input type="text" id="JobTitle" class="form-control"
+                                                            placeholder="Job Title" value="">
+                                                        <!-- <i class="con fa-regular fa-angle-down"></i> -->
+                                                    </span>
+                                                </div>
+                                                <div class="form-group form__input__select">
+                                                    <label for="sel1"> Employement type <span class="adinfo">(Input
+                                                            "select" type)</span> </label>
+                                                    <span class="has-icon">
+                                                        <select class="form-control" id="sel1" required>
+                                                            <option value="" disabled selected>Choose employment...
+                                                            </option>
+                                                            <option>Employment 2</option>
+                                                            <option>Employment 3</option>
+                                                            <option>Employment 4</option>
+                                                        </select>
+                                                        <i class="con fa-regular fa-angle-down pr-1"
+                                                            aria-hidden="true"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="form-group form__input__text">
+                                                    <label for=""> <span class="mandatory-field">*</span> Requisition
+                                                        Description <span class="adinfo">(Input "textarea" type)</span>
+                                                    </label>
+                                                    <span class="has-icon">
+                                                        <input type="text" class="form-control"
+                                                            placeholder="Something clever..">
+                                                        <button type="button" class="con pe-all border-0 bg-none"
+                                                            style="right: 40px;"><i
+                                                                class="fa-regular fa-minus"></i></button>
+                                                        <button type="button"
+                                                            class="con pe-all border-0 bg-none left-border px-2"><i
+                                                                class="fa-regular fa-plus"></i></button>
+                                                    </span>
+                                                </div>
+                                                <div class="form-group form__input__textarea">
+                                                    <label for=""> <span class="mandatory-field">*</span> Requisition
+                                                        Description <span class="adinfo">(Input "textarea" type)</span>
+                                                    </label>
+                                                    <span class="has-icon">
+                                                        <textarea class="form-control" rows="3" id="comment"></textarea>
+                                                        <!-- <i class="con fa-regular fa-angle-down pr-1"
+                                                            aria-hidden="true"></i> -->
+                                                    </span>
+                                                </div>
+                                                <div class="form-group inline form__input__text">
+                                                    <label for="JobTitle" class="pr-3 m-0"> <span class="mandatory-field">*</span> Job Title <span class="adinfo">(Input "text" type)</span> </label>
+                                                    <span class="has-icon">
+                                                        <input type="text" id="JobTitle" class="form-control"
+                                                            placeholder="Job Title" value="">
+                                                        <!-- <i class="con fa-regular fa-angle-down"></i> -->
+                                                    </span>
+                                                </div>
+                                                <div class="form-group form__input__text">
+                                                    <!-- <label for="JobTitle">&nbsp;</label> -->
+                                                    <span class="has-icon">
+                                                        <input type="text" id="Searchsomething" class="form-control"
+                                                            placeholder="Search by Candidate/Requisition" value="">
+                                                        <i class="con fa-regular fa-search pr-2"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="form-group form__input__checkbox checkbox checkbox-reg">
+                                                    <label class="checkbox_label on-left m-0">
+                                                        <input type="checkbox" class="">
+                                                        <span>
+                                                            <i class="fa fa-check"></i>
+                                                        </span>
+                                                        Label Text on left
+                                                    </label>
+                                                </div>
+                                                <div class="form-group form__input__radio">
+                                                    <label for="JobTitle"> <span class="mandatory-field">*</span> Interview Result </label>
+                                                    <span class="has-icon has-radio pl-3">
+                                                        <label class="radio__label pr-3">
+                                                            <input type="radio" class="" name="optradio"> <ins>Cleared</ins>
+                                                        </label>
+                                                        <label class="radio__label pr-3">
+                                                            <input type="radio" class="" name="optradio"> <ins>Not Cleared</ins>
+                                                        </label>
+                                                        <!-- <i class="con fa-regular fa-angle-down"></i> -->
+                                                    </span>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-6 p-0 pl-2 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="form-group form__input__text">
+                                                    <label for="JobTitle">Uploaded File Name</label>
+                                                    <span class="has-icon">
+                                                        <input type="text" id="JobTitle" class="form-control disabled"
+                                                            value="Dedeepya-Gonugunta-Product-Designer.docx">
+                                                    </span>
+                                                </div>
+                                                <div class="form-group form__input__file">
+                                                    <label for="JobTitle">File Upload</label>
+                                                    <span class="has-icon">
+                                                        <label for="fileupload1"
+                                                            class="input-fileupload-type1 p-3 text-center">
+                                                            <input type="file" id="fileupload1"
+                                                                class="form-control invisible" value="">
+                                                            <p class="m-0 p-0">Drag and drop resume here to upload</p>
+                                                            <p class="m-0 p-0 pb-2 pt-1">or</p>
+                                                            <button class="obtn obtn-reg obtn-primary pe-none">Select
+                                                                File to upload</button>
+                                                        </label>
+                                                    </span>
+                                                </div>
+                                                <div class="form-group form__input__file">
+                                                    <label for="JobTitle">File Upload</label>
+                                                    <span class="has-icon">
+                                                        <label for="fileupload1"
+                                                            class="input-fileupload-type1 p-3 text-center d-flex justify-content-center align-items-center">
+                                                            <input type="file" id="fileupload1"
+                                                                class="form-control invisible col-width-percent-0" value="">
+                                                            <p class="m-0 p-0 pr-2">Drag and drop resume here to upload</p>
+                                                            <p class="m-0 p-0 pb-2 pt-1 pr-3">or</p>
+                                                            <button class="obtn obtn-reg obtn-primary pe-none">Select
+                                                                File to upload</button>
+                                                        </label>
+                                                    </span>
+                                                </div>
+                                                <div class="form-group form__input__switch">
+                                                    <label for="JobTitle"> <span class="mandatory-field">*</span> Final Round</label>
+                                                    <button class="m-0 p-0 border-0 bg-none switch-slider-input switch-slider-input__type1">
+                                                        <label class="switch m-0 mr-3">
+                                                            <input type="checkbox" checked="">
+                                                            <span class="slider round has-tickmark"><i class="fa-regular fa-check"></i></span>
+                                                        </label>
+                                                    </button>
+                                                </div>                                                                                   
+                                                <div class="form-group form__input__switch">
+                                                    <label for="JobTitle"> <span class="mandatory-field">*</span> Final Round</label>
+                                                    <button class="m-0 p-0 border-0 bg-none switch-slider-input switch-slider-input__type2">
+                                                        <label class="switch m-0 mr-3">
+                                                            <input type="checkbox" checked="">
+                                                            <span class="slider round has-tickmark p-0"><i class="fa-regular fa-check"></i></span>
+                                                        </label>
+                                                    </button>
+                                                </div>                                                                                   
+                                                <div class="form-group inline form__input__switch">
+                                                    <label class="m-0 p-0 pr-3" for="JobTitle"> <span class="mandatory-field">*</span> Final Round</label>
+                                                    <button class="m-0 p-0 border-0 bg-none switch-slider-input switch-slider-input__type2">
+                                                        <label class="switch m-0 mr-3">
+                                                            <input type="checkbox" checked="">
+                                                            <span class="slider round has-tickmark p-0"><i class="fa-regular fa-check"></i></span>
+                                                        </label>
+                                                    </button>
+                                                </div>                                                                                   
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-12 p-0">
+                                                <h4 class="form-fields-group-head px-2 py-1 mb-3">Hiring Team</h4>
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-12 p-0">
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="form-group inline">
+                                                    <label for="JobTitle" class="m-0 mr-2 line-height-normal">
+                                                        Job Title
+                                                    </label>
+                                                    <p class="form-control-value m-0 p-0">Sr. Front End Developer</p>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="JobTitle" class="">
+                                                        <span class="mandatory-field">*</span>
+                                                        Job Title
+                                                    </label>
+                                                    <p class="form-control-value m-0 p-0">Tech Innovate Solutions Pvt. Ltd.</p>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="JobTitle">
+                                                        <span class="mandatory-field">*</span>
+                                                        Requisition Description
+                                                    </label>
+                                                    <p class="form-control-value mg-0 pd-0">We are seeking a skilled
+                                                        Cybersecurity Application Developer to design and implement
+                                                        secure software solutions that protect our systems and data.
+                                                        This role involves embedding security into the development
+                                                        lifecycle, addressing vulnerabilities, and ensuring compliance
+                                                        with industry standards. The ideal candidate will have a strong
+                                                        background in programming, cybersecurity principles, and secure
+                                                        application design to safeguard against evolving threats.</p>
+                                                </div>
+                                                <span class="job-title px-3 py-1 mb-3 line-height-22">
+                                                    <label class="job-title_label m-0 p-0 pr-2">Job Title</label>
+                                                    <p class="job-title_text m-0 p-0">Sr. Front End Developer</p>
+                                                </span>
+                                                <!-- Info:> Your content goes here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ascend-accordion col-lg-12 p-0 mb-2">
+                                    <button class="ascend-accordion--header fontfam-nm-medium">Regular text</button>
+                                    <div class="ascend-accordion-panel ascend-accordion--body col-lg-12 p-0 px-3">
+                                        <div class="col-lg-12 p-0 d-flex flex-row flex-wrap mb-4">
+                                            <div class="actual-content-wrapper col-lg-12 p-0 pt-4">
+                                                <!-- Info:< Your content goes here -->
+                                                <p class="regular-text">
+                                                    <span class="subhead">Stunning and intuitive</span>
+                                                    The role of a front end developer is to create engaging and
+                                                    user-friendly
+                                                    websites and web applications. As a member of the development team,
+                                                    a front end
+                                                    developer works closely with designers, back end developers, and
+                                                    stakeholders to
+                                                    create visually stunning and intuitive user interfaces.
+                                                </p>
+                                                <ul class="regular-text--ul">
+                                                    <li class="regular-text--ul_liheadtext mb-3"><span>Responsibilities
+                                                            include:</span></li>
+                                                    <li>Developing responsive and accessible web pages and web
+                                                        applications using
+                                                        HTML, CSS, and JavaScript</li>
+                                                    <li>Testing and debugging code to ensure optimal performance and
+                                                        compatibility
+                                                        with different browsers and devices</li>
+                                                    <li>Collaborating with designers to create visually pleasing and
+                                                        engaging user
+                                                        experiences</li>
+                                                    <li>Integrating data and functionality from the back end into the
+                                                        front end
+                                                        user interface</li>
+                                                    <li>Staying up to date with new technologies and trends in front end
+                                                        development</li>
+                                                    <li>Ensuring consistent design across all web pages and applications
+                                                    </li>
+                                                    <li>Optimizing web pages and applications for speed and performance
+                                                    </li>
+                                                </ul>
+                                                <!-- Info:> Your content goes here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ascend-accordion col-lg-12 p-0 mb-2">
+                                    <button class="ascend-accordion--header fontfam-nm-medium">Data
+                                        Table</button>
+                                    <div class="ascend-accordion-panel ascend-accordion--body col-lg-12 p-0 px-3">
+                                        <div class="col-lg-12 p-0 d-flex flex-row flex-wrap mb-4">
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="data-table-wrap col-lg-12 p-0">
+                                                    <div class="inrow- data-table-header col-lg-12 p-0 py-2 align-items-center">
+                                                        <div class="data-table-header__leftpanel col-lg-6 p-0">
+                                                            <!-- <h5 class="p-0 m-0">Custom Table Heading</h5> -->
+                                                             <p class="data-table-header__leftpanel--total-records m-0 p-0">
+                                                                Total Records <b>100</b>
+                                                             </p>
+                                                        </div>
+                                                        <div class="data-table-header__rightpanel col-lg-6 p-0">
+                                                            <div class="inrow-rightpanel_wrap col-lg-12 p-0">
+                                                                <div class="form-group form__select m-0 ml-auto inline">
+                                                                    <label for="JobTitle" class="m-0 mr-2 white-space-nowrap">No. of Rows</label>
+                                                                    <span class="has-icon">
+                                                                        <select name="" id="" class="form-control pl-2 pr-2" style="width: 60px;">
+                                                                            <option value="">10</option>
+                                                                            <option value="">09</option>
+                                                                            <option value="">08</option>
+                                                                            <option value="">07</option>
+                                                                        </select>
+                                                                        <i class="con fa-regular fa-angle-down pr-1"></i>
+                                                                    </span>
+                                                                </div>
+                                                                <div class="form-group form-prevnext m-0 ml-3 d-flex align-items-center">
+                                                                    <button class="form-prev__button border-0 bg-none">
+                                                                        <i class="con fa-regular fa-angle-left"></i>
+                                                                    </button>
+                                                                    <span class="form-prevnext__text">
+                                                                        2-10
+                                                                    </span>
+                                                                    <button class="form-next__button border-0 bg-none">
+                                                                        <i class="con fa-regular fa-angle-right"></i>
+                                                                    </button>
+                                                                </div>
+                                                                <div class="form-group m-0 ml-3">
+                                                                    <span class="has-icon">
+                                                                        <select name="" id="" class="form-control px-2" style="width: 110px;">
+                                                                            <option value="">Actions</option>
+                                                                            <option value="">Source</option>
+                                                                            <option value="">Send Email</option>
+                                                                        </select>
+                                                                        <i class="con fa-regular fa-angle-down pr-1"></i>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="table-responsive col-lg-12 p-0">
+                                                        <table class="table data-table" style="width: 100%;">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="text-center col-width-percent-5">
+                                                                        <label class="checkbox checkbox-reg m-0 p-0">
+                                                                            <input type="checkbox" class="">
+                                                                            <span
+                                                                                class="position-relative d-inline-block">
+                                                                                <i class="fa fa-check"
+                                                                                    aria-hidden="true"></i>
+                                                                            </span>
+                                                                        </label>
+                                                                    </th>
+                                                                    <th class="text-left col-width-percent-20">Candidate
+                                                                        Name</th>
+                                                                    <th class="text-left col-width-percent-10">Location
+                                                                    </th>
+                                                                    <th class="text-left col-width-percent-13">Job Title
+                                                                    </th>
+                                                                    <th class="text-left col-width-percent-15">Email Id
+                                                                    </th>
+                                                                    <th class="text-left col-width-percent-10 ">Contact
+                                                                    </th>
+                                                                    <th class="text-left col-width-percent-20">Skills
+                                                                    </th>
+                                                                    <th class="text-center col-width-percent-7">Match %
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <label class="checkbox checkbox-reg m-0 p-0">
+                                                                            <input type="checkbox" class="">
+                                                                            <span
+                                                                                class="position-relative d-inline-block">
+                                                                                <i class="fa fa-check"
+                                                                                    aria-hidden="true"></i>
+                                                                            </span>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-left">
+                                                                        <b>Subramanyam Jaishankar</b>
+                                                                        <span class="d-block">
+                                                                            <!-- <b>T122334</b><br> -->
+                                                                            Risod, Maharashtra, India
+                                                                        </span>
+                                                                    </td>
+                                                                    <td class="text-left">Mumbai, India</td>
+                                                                    <td class="text-left">Software Developer</td>
+                                                                    <td class="text-left">rahul.sharma@domain.com</td>
+                                                                    <td class="text-left">+91-9876543210</td>
+                                                                    <td class="text-left">Java, Spring Boot,
+                                                                        Microservices</td>
+                                                                    <td class="text-center">
+                                                                        <span class="roundedbox-percentage">
+                                                                            92%
+                                                                        </span>
+                                                                    </td>
+                                                                    <!-- <td class="text-right">
+                                                                    <span class="tr-actions">
+                                                                        <button class="border-0 bg-none font-16 text-color-blue">
+                                                                            <i class="fa-regular fa-file-lines"></i>
+                                                                        </button>
+                                                                        <button class="border-0 bg-none font-16 text-color-green-medium-light" data-toggle="modal" data-target="#scheduleInterviewModal">
+                                                                            <i class="fa-regular fa-calendar-clock"></i>
+                                                                        </button>
+                                                                        <button class="border-0 bg-none font-16 text-color-blue" data-toggle="modal" data-target="#editCandidateInfoModal">
+                                                                            <i class="fa-regular fa-pen-to-square"></i>
+                                                                        </button>
+                                                                    </span>
+                                                                    &nbsp;
+                                                                </td> -->
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <label class="checkbox checkbox-reg m-0 p-0">
+                                                                            <input type="checkbox" class="">
+                                                                            <span
+                                                                                class="position-relative d-inline-block">
+                                                                                <i class="fa fa-check"
+                                                                                    aria-hidden="true"></i>
+                                                                            </span>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-left">
+                                                                        <b>Rahul Sharma</b>
+                                                                        <span class="d-block">
+                                                                            <!-- <b>T122334</b><br> -->
+                                                                            Risod, Maharashtra, India
+                                                                        </span>
+                                                                    </td>
+                                                                    <td class="text-left">Bengaluru, India</td>
+                                                                    <td class="text-left">Network Administrator</td>
+                                                                    <td class="text-left">rahul.sharma@domain.com</td>
+                                                                    <td class="text-left">+91-9876543210</td>
+                                                                    <td class="text-left">Java, Spring Boot,
+                                                                        Microservices</td>
+                                                                    <td class="text-center">
+                                                                        <span class="roundedbox-percentage">
+                                                                            92%
+                                                                        </span>
+                                                                    </td>
+                                                                    <!-- <td class="text-right">
+                                                                    <span class="tr-actions">
+                                                                        <button class="border-0 bg-none font-16 text-color-blue">
+                                                                            <i class="fa-regular fa-file-lines"></i>
+                                                                        </button>
+                                                                        <button class="border-0 bg-none font-16 text-color-green-medium-light" data-toggle="modal" data-target="#scheduleInterviewModal">
+                                                                            <i class="fa-regular fa-calendar-clock"></i>
+                                                                        </button>
+                                                                        <button class="border-0 bg-none font-16 text-color-blue" data-toggle="modal" data-target="#editCandidateInfoModal">
+                                                                            <i class="fa-regular fa-pen-to-square"></i>
+                                                                        </button>
+                                                                    </span>
+                                                                    &nbsp;
+                                                                </td> -->
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <label class="checkbox checkbox-reg m-0 p-0">
+                                                                            <input type="checkbox" class="">
+                                                                            <span
+                                                                                class="position-relative d-inline-block">
+                                                                                <i class="fa fa-check"
+                                                                                    aria-hidden="true"></i>
+                                                                            </span>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-left">
+                                                                        <b>Priya Singh</b>
+                                                                        <span class="d-block">
+                                                                            <!-- <b>T122334</b><br> -->
+                                                                            Risod, Maharashtra, India
+                                                                        </span>
+                                                                    </td>
+                                                                    <td class="text-left">Pune, India</td>
+                                                                    <td class="text-left">Digital Marketing Manager</td>
+                                                                    <td class="text-left">rahul.sharma@domain.com</td>
+                                                                    <td class="text-left">+91-9876543210</td>
+                                                                    <td class="text-left">Java, Spring Boot,
+                                                                        Microservices</td>
+                                                                    <td class="text-center">
+                                                                        <span class="roundedbox-percentage">
+                                                                            92%
+                                                                        </span>
+                                                                    </td>
+                                                                    <!-- <td class="text-right">
+                                                                    <span class="tr-actions">
+                                                                        <button class="border-0 bg-none font-16 text-color-blue">
+                                                                            <i class="fa-regular fa-file-lines"></i>
+                                                                        </button>
+                                                                        <button class="border-0 bg-none font-16 text-color-green-medium-light" data-toggle="modal" data-target="#scheduleInterviewModal">
+                                                                            <i class="fa-regular fa-calendar-clock"></i>
+                                                                        </button>
+                                                                        <button class="border-0 bg-none font-16 text-color-blue" data-toggle="modal" data-target="#editCandidateInfoModal">
+                                                                            <i class="fa-regular fa-pen-to-square"></i>
+                                                                        </button>
+                                                                    </span>
+                                                                    &nbsp;
+                                                                </td> -->
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <label class="checkbox checkbox-reg m-0 p-0">
+                                                                            <input type="checkbox" class="">
+                                                                            <span
+                                                                                class="position-relative d-inline-block">
+                                                                                <i class="fa fa-check"
+                                                                                    aria-hidden="true"></i>
+                                                                            </span>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-left">
+                                                                        <b>Arjun Patel</b>
+                                                                        <span class="d-block">
+                                                                            <!-- <b>T122334</b><br> -->
+                                                                            Risod, Maharashtra, India
+                                                                        </span>
+                                                                    </td>
+                                                                    <td class="text-left">Hyderabad, India</td>
+                                                                    <td class="text-left">Data Scientist</td>
+                                                                    <td class="text-left">rahul.sharma@domain.com</td>
+                                                                    <td class="text-left">+91-9876543210</td>
+                                                                    <td class="text-left">Java, Spring Boot,
+                                                                        Microservices</td>
+                                                                    <td class="text-center">
+                                                                        <span class="roundedbox-percentage">
+                                                                            92%
+                                                                        </span>
+                                                                    </td>
+                                                                    <!-- <td class="text-right">
+                                                                    <span class="tr-actions">
+                                                                        <button class="border-0 bg-none font-16 text-color-blue">
+                                                                            <i class="fa-regular fa-file-lines"></i>
+                                                                        </button>
+                                                                        <button class="border-0 bg-none font-16 text-color-green-medium-light" data-toggle="modal" data-target="#scheduleInterviewModal">
+                                                                            <i class="fa-regular fa-calendar-clock"></i>
+                                                                        </button>
+                                                                        <button class="border-0 bg-none font-16 text-color-blue" data-toggle="modal" data-target="#editCandidateInfoModal">
+                                                                            <i class="fa-regular fa-pen-to-square"></i>
+                                                                        </button>
+                                                                    </span>
+                                                                    &nbsp;
+                                                                </td> -->
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ascend-accordion col-lg-12 p-0 mb-2">
+                                    <button class="ascend-accordion--header fontfam-nm-medium">Ascendion Cards</button>
+                                    <div class="ascend-accordion-panel ascend-accordion--body col-lg-12 p-0 px-3">
+                                        <div class="col-lg-12 p-0 d-flex flex-row flex-wrap mb-4">
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3">
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Ascendion Card with Card header and footer
+                                                </h4>
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="ascard col-lg-12 p-0">
+                                                    <div class="ascard-header col-lg-12 p-0 px-2 py-1">
+                                                        <h4 class="ascard-title m-0">Card header</h4>
+                                                    </div>
+                                                    <div class="ascard-body col-lg-12 px-2 py-1">
+                                                        <p class="regular-text">
+                                                            <span class="subhead">Card Body</span>
+                                                            The role of a front end developer is to create engaging and
+                                                            user-friendly
+                                                            websites and web applications. As a member of the
+                                                            development team, a front end
+                                                            developer works closely with designers, back end developers,
+                                                            and stakeholders to
+                                                            create visually stunning and intuitive user interfaces.
+                                                        </p>
+                                                    </div>
+                                                    <div
+                                                        class="ascard-footer col-lg-12 px-2 py-1 d-flex align-items-center">
+                                                        <p class="regular-text m-0 d-inline">Card Footer</p>
+                                                        <button
+                                                            class="obtn obtn-reg obtn-secondary-outline ml-auto">Cancel</button>
+                                                        <button class="obtn obtn-reg obtn-primary ml-4">Submit</button>
+                                                    </div>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3">
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Ascendion Card only
+                                                </h4>
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="ascard col-lg-12 p-0">
+                                                    <div class="ascard-body col-lg-12 px-2 py-1">
+                                                        <p class="regular-text">
+                                                            <span class="subhead">Card Body</span>
+                                                            The role of a front end developer is to create engaging and
+                                                            user-friendly
+                                                            websites and web applications. As a member of the
+                                                            development team, a front end
+                                                            developer works closely with designers, back end developers,
+                                                            and stakeholders to
+                                                            create visually stunning and intuitive user interfaces.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ascend-accordion col-lg-12 p-0 mb-2">
+                                    <button class="ascend-accordion--header fontfam-nm-medium">List items &
+                                        Strips</button>
+                                    <div class="ascend-accordion-panel ascend-accordion--body col-lg-12 p-0 px-3">
+                                        <div class="col-lg-12 p-0 d-flex flex-row flex-wrap my-4">
+                                            <h4 class="m-0 p-0 mb-3 w-100">
+                                                Long strip (Gray color) ex: Requisition Details
+                                            </h4>
+                                            <div class="actual-content-wrapper col-lg-12 px-2 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="strip strip_gray col-lg-12 px-2 py-2 mb-3 justify-content-start">
+                                                    <strong class="m-0 p-0 pt-1 align-middle mr-4">Requisition Details</strong>
+                                                    <div class="form-group m-0 inline divider-line-right pr-4 mr-4">
+                                                        <label for="JobTitle" class="m-0 mr-2 line-height-normal">
+                                                            Job Title
+                                                        </label>
+                                                        <p class="form-control-value m-0 p-0">Sr. Front End Developer</p>
+                                                    </div>
+                                                    <div class="form-group m-0 inline divider-line-right pr-4 mr-4">
+                                                        <label for="JobTitle" class="m-0 mr-2 line-height-normal">
+                                                            Created Date 
+                                                        </label>
+                                                        <p class="form-control-value m-0 p-0">07/15/2024</p>
+                                                    </div>
+                                                    <div class="form-group m-0 inline divider-line-right pr-4 mr-4">
+                                                        <label for="JobTitle" class="m-0 mr-2 line-height-normal">
+                                                            Type  
+                                                        </label>
+                                                        <p class="form-control-value m-0 p-0">Process</p>
+                                                    </div>
+                                                    <div class="form-group m-0 inline divider-line-right pr-4 mr-4">
+                                                        <label for="JobTitle" class="m-0 mr-2 line-height-normal">
+                                                            Positions   
+                                                        </label>
+                                                        <p class="form-control-value m-0 p-0">10</p>
+                                                    </div>
+                                                    <div class="form-group m-0 inline">
+                                                        <label for="JobTitle" class="m-0 mr-2 line-height-normal">
+                                                            Hiring Manager    
+                                                        </label>
+                                                        <p class="form-control-value m-0 p-0">Irfan Sabir</p>
+                                                    </div>
+                                                    <button class="border-0 bg-none ml-auto text-color-blue-medium-dark">
+                                                        <i class="fa-regular fa-eye"></i>
+                                                    </button>
+                                                </div>
+                                                <!-- Info:> Your content goes here -->
+                                            </div>
+                                            <h4 class="m-0 p-0 mb-3 w-100">
+                                                Long strip (Yellow color) ex: Interview Schedule Details
+                                            </h4>
+                                            <div class="actual-content-wrapper col-lg-12 px-2 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="strip strip_yellow col-lg-12 px-2 py-2 mb-3 justify-content-start">
+                                                    <!-- <strong class="m-0 p-0 pt-1 align-middle mr-4">Client Name</strong> -->
+                                                    <div class="form-group m-0 inline divider-line-right pr-4 mr-4 w-50">
+                                                        <label for="JobTitle" class="m-0 mr-2 line-height-normal pt-0">
+                                                            Client Name
+                                                        </label>
+                                                        <p class="form-control-value m-0 p-0">TechInnovate Solutions ● Bengaluru | Pune</p>
+                                                    </div>
+                                                    <div class="form-group m-0 inline">
+                                                        <label for="JobTitle" class="m-0 mr-2 line-height-normal pt-0">
+                                                            Candidate  
+                                                        </label>
+                                                        <p class="form-control-value m-0 p-0">Manoj Kumar ● manoj.kumar@gmail.com </p>
+                                                    </div>
+                                                </div>
+                                                <!-- Info:> Your content goes here -->
+                                            </div>
+                                            <h4 class="m-0 p-0 mb-3 w-100">
+                                                List items
+                                            </h4>
+                                            <div class="actual-content-wrapper col-lg-3 px-2 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="ascard border-0 col-lg-12 p-0">
+                                                    <div class="ascard-list col-lg-12 p-0">
+                                                        <div class="strip strip_yellow px-2 py-2 mb-3">
+                                                            Shortlisted
+                                                            <span class="strip_xtra-info">10</span>
+                                                        </div>
+                                                        <div
+                                                            class="ascard-list-item employee-details col-lg-12 px-2 py-1 mb-2">
+                                                            <div class="ascard-list-item-header col-lg-12 p-0 mb-1">
+                                                                <h4
+                                                                    class="ascard-list-item-header--title employee-details_name m-0">
+                                                                    Card header</h4>
+                                                            </div>
+                                                            <div class="ascard-list-item-body col-lg-12 p-0">
+                                                                <div
+                                                                    class="employee-details--designation mb-2 d-flex align-items-center justify-content-between">
+                                                                    <p
+                                                                        class="ascard-list-item-body_box-left m-0 line-limit only-lines-1">
+                                                                        Sr. Front End Developer Sr. Front End Developer
+                                                                    </p>
+                                                                    <span
+                                                                        class="ascard-list-item-body_box-right text-center">
+                                                                        <i
+                                                                            class="fa-regular fa-eye text-color-blue-heavy-dark font-16"></i>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ascard-floaters col-lg-12 p-0 text-right">
+                                                                <span class="ascard-floaters--percentage font-14">
+                                                                    82%
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-3 px-2 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="ascard border-0 col-lg-12 p-0">
+                                                    <div class="ascard-list col-lg-12 p-0">
+                                                        <div class="strip strip_blue px-2 py-2 mb-3">
+                                                            Screened
+                                                            <span class="strip_xtra-info">10</span>
+                                                        </div>
+                                                        <div
+                                                            class="ascard-list-item employee-details col-lg-12 px-2 py-1 mb-2">
+                                                            <div class="ascard-list-item-header col-lg-12 p-0 mb-1">
+                                                                <h4
+                                                                    class="ascard-list-item-header--title employee-details_name m-0">
+                                                                    Card header</h4>
+                                                            </div>
+                                                            <div class="ascard-list-item-body col-lg-12 p-0">
+                                                                <div
+                                                                    class="employee-details--designation mb-2 d-flex align-items-center justify-content-between">
+                                                                    <p
+                                                                        class="ascard-list-item-body_box-left m-0 line-limit only-lines-1">
+                                                                        Sr. Front End Developer Sr. Front End Developer
+                                                                    </p>
+                                                                    <span
+                                                                        class="ascard-list-item-body_box-right text-center">
+                                                                        <i
+                                                                            class="fa-regular fa-eye text-color-blue-heavy-dark font-16"></i>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ascard-floaters col-lg-12 p-0 text-right">
+                                                                <span class="ascard-floaters--percentage font-14">
+                                                                    82%
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-3 px-2 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="ascard border-0 col-lg-12 p-0">
+                                                    <div class="ascard-list col-lg-12 p-0">
+                                                        <div class="strip strip_red px-2 py-2 mb-3">
+                                                            Interviewed
+                                                            <span class="strip_xtra-info">10</span>
+                                                        </div>
+                                                        <div
+                                                            class="ascard-list-item employee-details col-lg-12 px-2 py-1 mb-2">
+                                                            <div class="ascard-list-item-header col-lg-12 p-0 mb-1">
+                                                                <h4
+                                                                    class="ascard-list-item-header--title employee-details_name m-0">
+                                                                    Card header</h4>
+                                                            </div>
+                                                            <div class="ascard-list-item-body col-lg-12 p-0">
+                                                                <div
+                                                                    class="employee-details--designation mb-2 d-flex align-items-center justify-content-between">
+                                                                    <p
+                                                                        class="ascard-list-item-body_box-left m-0 line-limit only-lines-1">
+                                                                        Sr. Front End Developer Sr. Front End Developer
+                                                                    </p>
+                                                                    <span
+                                                                        class="ascard-list-item-body_box-right text-center">
+                                                                        <i
+                                                                            class="fa-regular fa-eye text-color-blue-heavy-dark font-16"></i>
+                                                                    </span>
+                                                                </div>
+                                                                <div
+                                                                    class="employee-details--interview col-lg-12 p-0 d-flex align-items-center justify-content-between">
+                                                                    <p
+                                                                        class="ascard-list-item-body_box-left m-0 line-limit only-lines-1">
+                                                                        Interview Scheduled</p>
+                                                                    <span
+                                                                        class="ascard-list-item-body_box-right text-center">
+                                                                        <i class="bg-color-green-thin-light text-color-green-medium-dark p-1"
+                                                                            style="font-style: normal;">L2</i>
+                                                                    </span>
+                                                                </div>
+                                                                <div
+                                                                    class="employee-details--interview_date col-lg-12 p-0">
+                                                                    <p class="m-0 line-limit only-lines-1">07/08/2024 ●
+                                                                        12:00 PM</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ascard-floaters col-lg-12 p-0 text-right">
+                                                                <span class="ascard-floaters--percentage font-14">
+                                                                    82%
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-3 px-2 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="ascard border-0 col-lg-12 p-0">
+                                                    <div class="ascard-list col-lg-12 p-0">
+                                                        <div class="strip strip_green px-2 py-2 mb-3">
+                                                            Hired
+                                                            <span class="strip_xtra-info">10</span>
+                                                        </div>
+                                                        <div
+                                                            class="ascard-list-item employee-details col-lg-12 px-2 py-1 mb-2">
+                                                            <div class="ascard-list-item-header col-lg-12 p-0 mb-1">
+                                                                <h4
+                                                                    class="ascard-list-item-header--title employee-details_name m-0">
+                                                                    Card header</h4>
+                                                            </div>
+                                                            <div class="ascard-list-item-body col-lg-12 p-0">
+                                                                <div
+                                                                    class="employee-details--designation mb-2 d-flex align-items-center justify-content-between">
+                                                                    <p
+                                                                        class="ascard-list-item-body_box-left m-0 line-limit only-lines-1">
+                                                                        Sr. Front End Developer Sr. Front End Developer
+                                                                    </p>
+                                                                    <span
+                                                                        class="ascard-list-item-body_box-right text-center">
+                                                                        <i
+                                                                            class="fa-regular fa-eye text-color-blue-heavy-dark font-16"></i>
+                                                                    </span>
+                                                                </div>
+                                                                <div
+                                                                    class="employee-details--interview col-lg-12 p-0 d-flex align-items-center justify-content-between">
+                                                                    <p
+                                                                        class="ascard-list-item-body_box-left m-0 text-color-green-medium-dark">
+                                                                        Hired</p>
+                                                                    <span
+                                                                        class="ascard-list-item-body_box-right text-center">
+                                                                        <!-- <i class="bg-color-green-thin-light text-color-green-medium-dark p-1" style="font-style: normal;">L2</i>  -->
+                                                                    </span>
+                                                                </div>
+                                                                <div
+                                                                    class="employee-details--interview_date col-lg-12 p-0">
+                                                                    <p class="m-0 line-limit only-lines-1">07/08/2024
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ascard-floaters col-lg-12 p-0 text-right">
+                                                                <span class="ascard-floaters--percentage font-14">
+                                                                    82%
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ascend-accordion col-lg-12 p-0 mb-2">
+                                    <button class="ascend-accordion--header fontfam-nm-medium">Toggleable / Dynamic Tabs</button>
+                                    <div class="ascend-accordion-panel ascend-accordion--body col-lg-12 p-0 px-3">
+                                        <div class="col-lg-12 p-0 d-flex flex-row flex-wrap mb-4">
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3">
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="tabs-and-contents-wrapper col-lg-12 p-0">
+                                                    <ul class="nav nav-pills tabs-and-contents--tabs">
+                                                        <li class="nav-item">
+                                                            <a class="nav-link active" data-toggle="pill" href="#home">Job Description</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" data-toggle="pill" href="#menu1">Candidate Pipeline</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" data-toggle="pill" href="#menu2">Journal</a>
+                                                        </li>
+                                                    </ul>
+                                                
+                                                    <!-- Tab panes -->
+                                                    <div class="tab-content tabs-and-contents--contents">
+                                                        <div class="tab-pane p-2 active" id="home">
+                                                            <span class="job-title px-3 py-1 mb-3 line-height-22">
+                                                                <label class="job-title_label m-0 p-0 pr-2">Job Title</label>
+                                                                <p class="job-title_text m-0 p-0">Sr. Front End Developer</p>
+                                                            </span>
+                                                            <p class="regular-text">
+                                                                <span class="subhead">Stunning and intuitive</span>
+                                                                The role of a front end developer is to create engaging and
+                                                                user-friendly
+                                                                websites and web applications. As a member of the development team,
+                                                                a front end
+                                                                developer works closely with designers, back end developers, and
+                                                                stakeholders to
+                                                                create visually stunning and intuitive user interfaces.
+                                                            </p>
+                                                        </div>
+                                                        <div class="tab-pane p-2 fade" id="menu1">
+                                                            <ul class="regular-text--ul">
+                                                                <li class="regular-text--ul_liheadtext mb-3"><span>Responsibilities
+                                                                        include:</span></li>
+                                                                <li>Developing responsive and accessible web pages and web
+                                                                    applications using
+                                                                    HTML, CSS, and JavaScript</li>
+                                                                <li>Testing and debugging code to ensure optimal performance and
+                                                                    compatibility
+                                                                    with different browsers and devices</li>
+                                                                <li>Collaborating with designers to create visually pleasing and
+                                                                    engaging user
+                                                                    experiences</li>
+                                                                <li>Integrating data and functionality from the back end into the
+                                                                    front end
+                                                                    user interface</li>
+                                                                <li>Staying up to date with new technologies and trends in front end
+                                                                    development</li>
+                                                                <li>Ensuring consistent design across all web pages and applications
+                                                                </li>
+                                                                <li>Optimizing web pages and applications for speed and performance
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="tab-pane p-2 fade" id="menu2">
+                                                            <p class="regular-text">
+                                                                <span class="subhead">Stunning and intuitive</span>
+                                                                The role of a front end developer is to create engaging and
+                                                                user-friendly
+                                                                websites and web applications. As a member of the development team,
+                                                                a front end
+                                                                developer works closely with designers, back end developers, and
+                                                                stakeholders to
+                                                                create visually stunning and intuitive user interfaces.
+                                                            </p>
+                                                            <ul class="regular-text--ul">
+                                                                <li class="regular-text--ul_liheadtext mb-3"><span>Responsibilities
+                                                                        include:</span></li>
+                                                                <li>Developing responsive and accessible web pages and web
+                                                                    applications using
+                                                                    HTML, CSS, and JavaScript</li>
+                                                                <li>Testing and debugging code to ensure optimal performance and
+                                                                    compatibility
+                                                                    with different browsers and devices</li>
+                                                                <li>Collaborating with designers to create visually pleasing and
+                                                                    engaging user
+                                                                    experiences</li>
+                                                                <li>Integrating data and functionality from the back end into the
+                                                                    front end
+                                                                    user interface</li>
+                                                                <li>Staying up to date with new technologies and trends in front end
+                                                                    development</li>
+                                                                <li>Ensuring consistent design across all web pages and applications
+                                                                </li>
+                                                                <li>Optimizing web pages and applications for speed and performance
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ascend-accordion col-lg-12 p-0 mb-2">
+                                    <button class="ascend-accordion--header fontfam-nm-medium">Progress bars and Loaders</button>
+                                    <div class="ascend-accordion-panel ascend-accordion--body col-lg-12 p-0 px-3">
+                                        <div class="col-lg-12 p-0 d-flex flex-row flex-wrap mb-4">
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3 bsb-1">
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Progress bar with text on top (Green)
+                                                </h4>
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="asc-progress-bar col-lg-7 mx-auto p-0">
+                                                    <div class="col-lg-12 p-0 pt-4">
+                                                        <div class="asc-progress-bar--text-top col-lg-12 p-0 mb-3">
+                                                            Uploading file Dedeepya Gonugunta Resume.docx
+                                                        </div>
+                                                        <div class="asc-progress-bar--bar col-lg-12 p-0 mb-3">
+                                                            <div class="asc-progress-bar--bar-fill col-lg-12 p-0">
+                                                                <div class="loader"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3 bsb-1">
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Progress bar with text on top and bottom (Green)
+                                                </h4>
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="asc-progress-bar col-lg-7 mx-auto p-0">
+                                                    <div class="col-lg-12 p-0 pt-4">
+                                                        <div class="asc-progress-bar--text-top col-lg-12 p-0 mb-3">
+                                                            Uploading file Dedeepya Gonugunta Resume.docx
+                                                        </div>
+                                                        <div class="asc-progress-bar--bar col-lg-12 p-0 mb-3">
+                                                            <div class="asc-progress-bar--bar-fill col-lg-12 p-0">
+                                                                <div class="loader"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="asc-progress-bar--text-bottom col-lg-12 p-0">
+                                                            <p class="asc-progress-bar--text-bottom__line1 p-0 m-0 mb-2">
+                                                                We are working on parsing the resume. 
+                                                            </p>
+                                                            <p class="asc-progress-bar--text-bottom__line2 p-0 m-0">
+                                                                This may take up to a few seconds. 
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3 bsb-1">
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Progress bar with image on right, with text on top and bottom (Green)
+                                                </h4>
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="asc-progress-bar col-lg-7 mx-auto p-0">
+                                                    <div class="col-lg-9 p-0 pt-4">
+                                                        <div class="asc-progress-bar--text-top col-lg-12 p-0 mb-3">
+                                                            Uploading file Dedeepya Gonugunta Resume.docx
+                                                        </div>
+                                                        <div class="asc-progress-bar--bar col-lg-12 p-0 mb-3">
+                                                            <div class="asc-progress-bar--bar-fill col-lg-12 p-0">
+                                                                <div class="loader"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="asc-progress-bar--text-bottom col-lg-12 p-0">
+                                                            <p class="asc-progress-bar--text-bottom__line1 p-0 m-0 mb-2">
+                                                                We are working on parsing the resume. 
+                                                            </p>
+                                                            <p class="asc-progress-bar--text-bottom__line2 p-0 m-0">
+                                                                This may take up to a few seconds. 
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 px-3 text-center">
+                                                        <img src="./assets/images/resume-image.svg" alt="" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3 bsb-1">
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Progress bar with image on left, with text on top and bottom (Green)
+                                                </h4>
+                                                <!-- Info:< Your content goes here -->
+                                                <div class="asc-progress-bar col-lg-7 mx-auto p-0">
+                                                    <div class="col-lg-3 px-3 text-center">
+                                                        <img src="./assets/images/resume-image.svg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="col-lg-9 p-0 pt-4">
+                                                        <div class="asc-progress-bar--text-top col-lg-12 p-0 mb-3">
+                                                            Uploading file Dedeepya Gonugunta Resume.docx
+                                                        </div>
+                                                        <div class="asc-progress-bar--bar col-lg-12 p-0 mb-3">
+                                                            <div class="asc-progress-bar--bar-fill col-lg-12 p-0">
+                                                                <div class="loader"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="asc-progress-bar--text-bottom col-lg-12 p-0">
+                                                            <p class="asc-progress-bar--text-bottom__line1 p-0 m-0 mb-2">
+                                                                We are working on parsing the resume. 
+                                                            </p>
+                                                            <p class="asc-progress-bar--text-bottom__line2 p-0 m-0">
+                                                                This may take up to a few seconds. 
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3">
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Page Header Type 2
+                                                </h4>
+                                                <!-- Info:< Your content goes here -->
+                                                sample text
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ascend-accordion col-lg-12 p-0 mb-2">
+                                    <button class="ascend-accordion--header fontfam-nm-medium">Miscellaneous</button>
+                                    <div class="ascend-accordion-panel ascend-accordion--body col-lg-12 p-0 px-3">
+                                        <div class="col-lg-12 p-0 d-flex flex-row flex-wrap mb-4">
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3">
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Roundedbox percentage
+                                                </h4>
+                                                <!-- Info:< Your content goes here -->
+                                                <span class="roundedbox-percentage">
+                                                    92%
+                                                </span>
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                            <div class="actual-content-wrapper col-lg-12 p-0 py-3">
+                                                <h4 class="m-0 p-0 mb-3">
+                                                    Page Header Type 2
+                                                </h4>
+                                                <!-- Info:< Your content goes here -->
+                                                sample text
+                                                <!-- Info:> Your content ends here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script>
+        var acc = document.getElementsByClassName("ascend-accordion--header");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                var panel = this.nextElementSibling;
+                if ($(this).hasClass('active')) {
+                    this.classList.remove("active");
+                    panel.style.maxHeight = null;
+                } else {
+                    this.classList.add("active");
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+
+
+                // this.classList.toggle("active");
+                // var panel = this.nextElementSibling;
+                // if (panel.style.maxHeight) {
+                //     panel.style.maxHeight = null;
+                // } else {
+                //     panel.style.maxHeight = panel.scrollHeight + "px";
+                // }
+            });
+        }
+    </script>
+    <script src="./assets/js/master.js"></script>
+</body>
+
+</html>

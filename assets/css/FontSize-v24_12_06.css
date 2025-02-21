@@ -1,0 +1,435 @@
+/* Version: 01.00 */
+/* Last Modified: 2024-12-06 */
+/* Changes:  */
+/* Info: font size START */
+:root {
+    --font-size-8: 8px;
+    --font-size-10: 10px;
+    --font-size-12: 12px;
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-18: 18px;
+    --font-size-20: 20px;
+    --font-size-22: 22px;
+    --font-size-24: 24px;
+    --font-size-26: 26px;
+    --font-size-28: 28px;
+    --font-size-30: 30px;
+    --font-size-32: 32px;
+    --font-size-34: 34px;
+    --font-size-36: 36px;
+    --font-size-38: 38px;
+    --font-size-40: 40px;
+    --font-size-42: 42px;
+    --font-size-44: 44px;
+    --font-size-46: 46px;
+    --font-size-48: 48px;
+    --font-size-50: 50px;
+}
+.font-8 {
+    font-size: var(--font-size-8) !important;
+}
+.font-10 {
+    font-size: var(--font-size-10) !important;
+}
+.font-12 {
+    font-size: var(--font-size-12) !important;
+}
+.font-14 {
+    font-size: var(--font-size-14) !important;
+}
+.font-16 {
+    font-size: var(--font-size-16) !important;
+}
+.font-18 {
+    font-size: var(--font-size-18) !important;
+}
+.font-20 {
+    font-size: var(--font-size-20) !important;
+}
+.font-22 {
+    font-size: var(--font-size-22) !important;
+}
+.font-24 {
+    font-size: var(--font-size-24) !important;
+}
+.font-26 {
+    font-size: var(--font-size-26) !important;
+}
+.font-28 {
+    font-size: var(--font-size-28) !important;
+}
+.font-30 {
+    font-size: var(--font-size-30) !important;
+}
+.font-32 {
+    font-size: var(--font-size-32) !important;
+}
+.font-34 {
+    font-size: var(--font-size-34) !important;
+}
+.font-36 {
+    font-size: var(--font-size-36) !important;
+}
+.font-38 {
+    font-size: var(--font-size-38) !important;
+}
+.font-40 {
+    font-size: var(--font-size-40) !important;
+}
+.font-42 {
+    font-size: var(--font-size-42) !important;
+}
+.font-44 {
+    font-size: var(--font-size-44) !important;
+}
+.font-46 {
+    font-size: var(--font-size-46) !important;
+}
+.font-48 {
+    font-size: var(--font-size-48) !important;
+}
+.font-50 {
+    font-size: var(--font-size-50) !important;
+}
+@media (min-width: 576px) {
+    .font-sm-8 {
+        font-size: var(--font-size-8) !important;
+    }
+    .font-sm-10 {
+        font-size: var(--font-size-10) !important;
+    }
+    .font-sm-12 {
+        font-size: var(--font-size-12) !important;
+    }
+    .font-sm-14 {
+        font-size: var(--font-size-14) !important;
+    }
+    .font-sm-16 {
+        font-size: var(--font-size-16) !important;
+    }
+    .font-sm-18 {
+        font-size: var(--font-size-18) !important;
+    }
+    .font-sm-20 {
+        font-size: var(--font-size-20) !important;
+    }
+    .font-sm-22 {
+        font-size: var(--font-size-22) !important;
+    }
+    .font-sm-24 {
+        font-size: var(--font-size-24) !important;
+    }
+    .font-sm-26 {
+        font-size: var(--font-size-26) !important;
+    }
+    .font-sm-28 {
+        font-size: var(--font-size-28) !important;
+    }
+    .font-sm-30 {
+        font-size: var(--font-size-30) !important;
+    }
+    .font-sm-32 {
+        font-size: var(--font-size-32) !important;
+    }
+    .font-sm-34 {
+        font-size: var(--font-size-34) !important;
+    }
+    .font-sm-36 {
+        font-size: var(--font-size-36) !important;
+    }
+    .font-sm-38 {
+        font-size: var(--font-size-38) !important;
+    }
+    .font-sm-40 {
+        font-size: var(--font-size-40) !important;
+    }
+    .font-sm-42 {
+        font-size: var(--font-size-42) !important;
+    }
+    .font-sm-44 {
+        font-size: var(--font-size-44) !important;
+    }
+    .font-sm-46 {
+        font-size: var(--font-size-46) !important;
+    }
+    .font-sm-48 {
+        font-size: var(--font-size-48) !important;
+    }
+    .font-sm-50 {
+        font-size: var(--font-size-50) !important;
+    }
+}
+@media (min-width: 768px) {
+    .font-md-8 {
+        font-size: var(--font-size-8) !important;
+    }
+    .font-md-10 {
+        font-size: var(--font-size-10) !important;
+    }
+    .font-md-12 {
+        font-size: var(--font-size-12) !important;
+    }
+    .font-md-14 {
+        font-size: var(--font-size-14) !important;
+    }
+    .font-md-16 {
+        font-size: var(--font-size-16) !important;
+    }
+    .font-md-18 {
+        font-size: var(--font-size-18) !important;
+    }
+    .font-md-20 {
+        font-size: var(--font-size-20) !important;
+    }
+    .font-md-22 {
+        font-size: var(--font-size-22) !important;
+    }
+    .font-md-24 {
+        font-size: var(--font-size-24) !important;
+    }
+    .font-md-26 {
+        font-size: var(--font-size-26) !important;
+    }
+    .font-md-28 {
+        font-size: var(--font-size-28) !important;
+    }
+    .font-md-30 {
+        font-size: var(--font-size-30) !important;
+    }
+    .font-md-32 {
+        font-size: var(--font-size-32) !important;
+    }
+    .font-md-34 {
+        font-size: var(--font-size-34) !important;
+    }
+    .font-md-36 {
+        font-size: var(--font-size-36) !important;
+    }
+    .font-md-38 {
+        font-size: var(--font-size-38) !important;
+    }
+    .font-md-40 {
+        font-size: var(--font-size-40) !important;
+    }
+    .font-md-42 {
+        font-size: var(--font-size-42) !important;
+    }
+    .font-md-44 {
+        font-size: var(--font-size-44) !important;
+    }
+    .font-md-46 {
+        font-size: var(--font-size-46) !important;
+    }
+    .font-md-48 {
+        font-size: var(--font-size-48) !important;
+    }
+    .font-md-50 {
+        font-size: var(--font-size-50) !important;
+    }
+}
+@media (min-width: 992px) {
+    .font-lg-8 {
+        font-size: var(--font-size-8) !important;
+    }
+    .font-lg-10 {
+        font-size: var(--font-size-10) !important;
+    }
+    .font-lg-12 {
+        font-size: var(--font-size-12) !important;
+    }
+    .font-lg-14 {
+        font-size: var(--font-size-14) !important;
+    }
+    .font-lg-16 {
+        font-size: var(--font-size-16) !important;
+    }
+    .font-lg-18 {
+        font-size: var(--font-size-18) !important;
+    }
+    .font-lg-20 {
+        font-size: var(--font-size-20) !important;
+    }
+    .font-lg-22 {
+        font-size: var(--font-size-22) !important;
+    }
+    .font-lg-24 {
+        font-size: var(--font-size-24) !important;
+    }
+    .font-lg-26 {
+        font-size: var(--font-size-26) !important;
+    }
+    .font-lg-28 {
+        font-size: var(--font-size-28) !important;
+    }
+    .font-lg-30 {
+        font-size: var(--font-size-30) !important;
+    }
+    .font-lg-32 {
+        font-size: var(--font-size-32) !important;
+    }
+    .font-lg-34 {
+        font-size: var(--font-size-34) !important;
+    }
+    .font-lg-36 {
+        font-size: var(--font-size-36) !important;
+    }
+    .font-lg-38 {
+        font-size: var(--font-size-38) !important;
+    }
+    .font-lg-40 {
+        font-size: var(--font-size-40) !important;
+    }
+    .font-lg-42 {
+        font-size: var(--font-size-42) !important;
+    }
+    .font-lg-44 {
+        font-size: var(--font-size-44) !important;
+    }
+    .font-lg-46 {
+        font-size: var(--font-size-46) !important;
+    }
+    .font-lg-48 {
+        font-size: var(--font-size-48) !important;
+    }
+    .font-lg-50 {
+        font-size: var(--font-size-50) !important;
+    }
+}
+@media (min-width: 1200px) {
+    .font-xl-8 {
+        font-size: var(--font-size-8) !important;
+    }
+    .font-xl-10 {
+        font-size: var(--font-size-10) !important;
+    }
+    .font-xl-12 {
+        font-size: var(--font-size-12) !important;
+    }
+    .font-xl-14 {
+        font-size: var(--font-size-14) !important;
+    }
+    .font-xl-16 {
+        font-size: var(--font-size-16) !important;
+    }
+    .font-xl-18 {
+        font-size: var(--font-size-18) !important;
+    }
+    .font-xl-20 {
+        font-size: var(--font-size-20) !important;
+    }
+    .font-xl-22 {
+        font-size: var(--font-size-22) !important;
+    }
+    .font-xl-24 {
+        font-size: var(--font-size-24) !important;
+    }
+    .font-xl-26 {
+        font-size: var(--font-size-26) !important;
+    }
+    .font-xl-28 {
+        font-size: var(--font-size-28) !important;
+    }
+    .font-xl-30 {
+        font-size: var(--font-size-30) !important;
+    }
+    .font-xl-32 {
+        font-size: var(--font-size-32) !important;
+    }
+    .font-xl-34 {
+        font-size: var(--font-size-34) !important;
+    }
+    .font-xl-36 {
+        font-size: var(--font-size-36) !important;
+    }
+    .font-xl-38 {
+        font-size: var(--font-size-38) !important;
+    }
+    .font-xl-40 {
+        font-size: var(--font-size-40) !important;
+    }
+    .font-xl-42 {
+        font-size: var(--font-size-42) !important;
+    }
+    .font-xl-44 {
+        font-size: var(--font-size-44) !important;
+    }
+    .font-xl-46 {
+        font-size: var(--font-size-46) !important;
+    }
+    .font-xl-48 {
+        font-size: var(--font-size-48) !important;
+    }
+    .font-xl-50 {
+        font-size: var(--font-size-50) !important;
+    }
+}
+@media (min-width: 1400px) {
+    .font-xxl-8 {
+        font-size: var(--font-size-8) !important;
+    }
+    .font-xxl-10 {
+        font-size: var(--font-size-10) !important;
+    }
+    .font-xxl-12 {
+        font-size: var(--font-size-12) !important;
+    }
+    .font-xxl-14 {
+        font-size: var(--font-size-14) !important;
+    }
+    .font-xxl-16 {
+        font-size: var(--font-size-16) !important;
+    }
+    .font-xxl-18 {
+        font-size: var(--font-size-18) !important;
+    }
+    .font-xxl-20 {
+        font-size: var(--font-size-20) !important;
+    }
+    .font-xxl-22 {
+        font-size: var(--font-size-22) !important;
+    }
+    .font-xxl-24 {
+        font-size: var(--font-size-24) !important;
+    }
+    .font-xxl-26 {
+        font-size: var(--font-size-26) !important;
+    }
+    .font-xxl-28 {
+        font-size: var(--font-size-28) !important;
+    }
+    .font-xxl-30 {
+        font-size: var(--font-size-30) !important;
+    }
+    .font-xxl-32 {
+        font-size: var(--font-size-32) !important;
+    }
+    .font-xxl-34 {
+        font-size: var(--font-size-34) !important;
+    }
+    .font-xxl-36 {
+        font-size: var(--font-size-36) !important;
+    }
+    .font-xxl-38 {
+        font-size: var(--font-size-38) !important;
+    }
+    .font-xxl-40 {
+        font-size: var(--font-size-40) !important;
+    }
+    .font-xxl-42 {
+        font-size: var(--font-size-42) !important;
+    }
+    .font-xxl-44 {
+        font-size: var(--font-size-44) !important;
+    }
+    .font-xxl-46 {
+        font-size: var(--font-size-46) !important;
+    }
+    .font-xxl-48 {
+        font-size: var(--font-size-48) !important;
+    }
+    .font-xxl-50 {
+        font-size: var(--font-size-50) !important;
+    }
+}
+/* Info: font size END */

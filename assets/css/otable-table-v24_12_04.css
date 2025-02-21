@@ -1,0 +1,94 @@
+/* Version: 01.00 */
+/* Last Modified: 2024-12-04 */
+/* Changes:  */
+:root{
+    /* Info: Table vars */
+    --table-head-border-color: #D3D3D3;
+    --table-head-background-color: #F4F4F4;
+    --table-head-text-color: #585B72;
+    --table-head-text-size: 14px;
+    --table-td-border-color: #D3D3D3;
+    --table-td-text-b-color: #6651E6;
+    --table-td-text-color: #4A4A4A;
+    --table-td-text-size: 14px;
+    --table-td-span-text-color: #9D97AC;
+    --table-tr-odd-background-color: #F6F6F6;
+    --table-tr-even-background-color: #F6F6F6;
+    --table-tr-active-background-color: #E8E4FF;
+    --table-tr-inactive-background-color: #FFEFE6;
+}
+/* Info: Report table styles START */
+.data-table-header__leftpanel--total-records{
+    color: #4a4a4a;
+    font-family: var(--helvetica-neue);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 18px;
+}
+.data-table-header__leftpanel--total-records b{
+    color: #4d5165;
+    font-family: var(--helvetica-neue);
+    font-size: 14px;
+    font-weight: 700;
+    font-style: Bold;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 18px;
+}
+.data-table thead tr th {
+    border-top: solid 1.5px var(--table-head-border-color);
+    border-bottom: solid 1.5px var(--table-head-border-color);
+    vertical-align: middle;
+    padding: 4px 8px;
+    color: var(--table-head-text-color);
+    background-color: var(--table-head-background-color);
+    /* text-transform: uppercase; */
+    font-size: var(--table-head-text-size);
+}
+
+.data-table tbody tr td {
+    border-bottom: solid 1px var(--table-td-border-color);
+    color: var(--table-td-text-color);
+    font-family: 'Helvetica Neue';
+    font-size: var(--table-td-text-size);
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 4px 8px;
+    vertical-align: middle;
+}
+.data-table tbody tr td b{
+    color: var(--table-td-text-b-color);
+    font-weight: 400 !important;
+    line-height: 24px;
+}
+.data-table tbody tr td>span {
+    color: var(--table-td-span-text-color);
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+}
+
+/* .data-table tbody tr th {
+    opacity: 1;
+    color: var(--table-head-text-color);
+    font-family: "HelveticaNeue-Medium";
+    font-size: var(--table-head-text-size);
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+} */
+
+.table-striped tbody tr:nth-of-type(odd) {
+    /* background: none; */
+}
+
+.table.data-table tr:nth-of-type(even) {
+    /* background-color: var(--table-tr-even-background-color); */
+}
+
+/* Info: Report table styles END */

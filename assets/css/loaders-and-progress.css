@@ -1,0 +1,57 @@
+.asc-progress-bar{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.asc-progress-bar--text-top{
+    color: var(--color-green-medium-dark);
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: Medium;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 20px;
+}
+.asc-progress-bar--text-bottom__line1{
+    color: #4a4a4a;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: Bold;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.asc-progress-bar--text-bottom__line2{
+    color: #4a4a4a;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    height: 5px;
+    width: 100%;
+    --c: no-repeat linear-gradient(var(--color-green-medium-dark) 0 0);
+    background: var(--c), var(--c), #C2EAE1;
+    background-size: 40% 100%;
+    border-radius: 5px;
+    animation: l16 4s infinite;
+}
+
+@keyframes l16 {
+    0% {
+        background-position: -150% 0, -150% 0
+    }
+    50% {
+        background-position: 250% 0, -150% 0
+    }
+    100% {
+        background-position: 250% 0, 250% 0
+    }
+}

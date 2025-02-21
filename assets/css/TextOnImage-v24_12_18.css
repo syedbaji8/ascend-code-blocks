@@ -1,0 +1,68 @@
+/* Version: 01.00 */
+/* Created on: 2024-12-18 */
+/* Last Modified: 2024-12-18 */
+/* Changes:  */
+/* Info: text on image START */
+.init-coi {
+    position: relative;
+}
+.text-on-image,
+.coi_layer1
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+@media (min-width: 576px) {
+    .text-on-image-sm,
+    .coi_layer1-sm{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+}
+@media (min-width: 768px) {
+    .text-on-image-md,
+    .coi_layer1-md{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+}
+@media (min-width: 992px) {
+    .text-on-image-lg,
+    .coi_layer1-lg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .text-on-image-xl,
+    .coi_layer1-xl{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+}
+@media (min-width: 1400px) {
+    .text-on-image-xxl,
+    .coi_layer1-xxl{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+}
+/* Info: text on image END */

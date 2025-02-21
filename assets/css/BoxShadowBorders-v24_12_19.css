@@ -1,0 +1,198 @@
+/* Version: 01.00 */
+/* Last Modified: 2024-12-19 */
+/* Changes:  */
+/* Info: box shadow START */
+:root{
+    --boxshadow-border-color: #D3D3D3;
+}
+.bs-05 {
+    box-shadow: 0px 0px 0px 0.5px var(--boxshadow-border-color);
+}
+.bs-1 {
+    box-shadow: 0px 0px 0px 1px var(--boxshadow-border-color);
+}
+.bst-1 {
+    box-shadow: 0px -1px 0px 0px var(--boxshadow-border-color);
+}
+.bsr-1 {
+    box-shadow: 1px 0px 0px 0px var(--boxshadow-border-color);
+}
+.bsb-1 {
+    box-shadow: 0px 1px 0px 0px var(--boxshadow-border-color);
+}
+.bsl-1 {
+    box-shadow: -1px 0px 0px 0px var(--boxshadow-border-color);
+}
+.bstb-1 {
+    box-shadow: 0px -1px 0px 0px var(--boxshadow-border-color), 0px 1px 0px 0px var(--boxshadow-border-color);
+}
+.bs-0 {
+    box-shadow: 0px 0px 0px 0px transparent !important;
+}
+.bslr-1 {
+    box-shadow: -1px 0px 0px 0px var(--boxshadow-border-color), 1px 0px 0px 0px var(--boxshadow-border-color);
+}
+.bsrb-1 {
+    box-shadow: 1px 1px 0px 0px var(--boxshadow-border-color);
+}
+@media (min-width: 576px) {
+    .bs-sm-05 {
+        box-shadow: 0px 0px 0px 0.5px var(--boxshadow-border-color);
+    }
+    .bs-sm-1 {
+        box-shadow: 0px 0px 0px 1px var(--boxshadow-border-color);
+    }
+    .bst-sm-1 {
+        box-shadow: 0px -1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsr-sm-1 {
+        box-shadow: 1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsb-sm-1 {
+        box-shadow: 0px 1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsl-sm-1 {
+        box-shadow: -1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bstb-sm-1 {
+        box-shadow: 0px -1px 0px 0px var(--boxshadow-border-color), 0px 1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bslr-sm-1 {
+        box-shadow: -1px 0px 0px 0px var(--boxshadow-border-color), 1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bs-sm-0 {
+        box-shadow: 0px 0px 0px 0px transparent !important;
+    }
+    .bsrb-sm-1 {
+        box-shadow: 1px 1px 0px 0px var(--boxshadow-border-color);
+    }
+}
+@media (min-width: 768px) {
+    .bs-md-05 {
+        box-shadow: 0px 0px 0px 0.5px var(--boxshadow-border-color);
+    }
+    .bs-md-1 {
+        box-shadow: 0px 0px 0px 1px var(--boxshadow-border-color);
+    }
+    .bst-md-1 {
+        box-shadow: 0px -1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsr-md-1 {
+        box-shadow: 1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsb-md-1 {
+        box-shadow: 0px 1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsl-md-1 {
+        box-shadow: -1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bstb-md-1 {
+        box-shadow: 0px -1px 0px 0px var(--boxshadow-border-color), 0px 1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bslr-md-1 {
+        box-shadow: -1px 0px 0px 0px var(--boxshadow-border-color), 1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bs-md-0 {
+        box-shadow: 0px 0px 0px 0px transparent !important;
+    }
+    .bsrb-md-1 {
+        box-shadow: 1px 1px 0px 0px var(--boxshadow-border-color);
+    }
+}
+@media (min-width: 992px) {
+    .bs-lg-05 {
+        box-shadow: 0px 0px 0px 0.5px var(--boxshadow-border-color);
+    }
+    .bs-lg-1 {
+        box-shadow: 0px 0px 0px 1px var(--boxshadow-border-color);
+    }
+    .bst-lg-1 {
+        box-shadow: 0px -1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsr-lg-1 {
+        box-shadow: 1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsb-lg-1 {
+        box-shadow: 0px 1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsl-lg-1 {
+        box-shadow: -1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bstb-lg-1 {
+        box-shadow: 0px -1px 0px 0px var(--boxshadow-border-color), 0px 1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bslr-lg-1 {
+        box-shadow: -1px 0px 0px 0px var(--boxshadow-border-color), 1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bs-lg-0 {
+        box-shadow: 0px 0px 0px 0px transparent !important;
+    }
+    .bsrb-lg-1 {
+        box-shadow: 1px 1px 0px 0px var(--boxshadow-border-color);
+    }
+}
+@media (min-width: 1200px) {
+    .bs-xl-05 {
+        box-shadow: 0px 0px 0px 0.5px var(--boxshadow-border-color);
+    }
+    .bs-xl-1 {
+        box-shadow: 0px 0px 0px 1px var(--boxshadow-border-color);
+    }
+    .bst-xl-1 {
+        box-shadow: 0px -1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsr-xl-1 {
+        box-shadow: 1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsb-xl-1 {
+        box-shadow: 0px 1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsl-xl-1 {
+        box-shadow: -1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bstb-xl-1 {
+        box-shadow: 0px -1px 0px 0px var(--boxshadow-border-color), 0px 1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bslr-xl-1 {
+        box-shadow: -1px 0px 0px 0px var(--boxshadow-border-color), 1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bs-xl-0 {
+        box-shadow: 0px 0px 0px 0px transparent !important;
+    }
+    .bsrb-xl-1 {
+        box-shadow: 1px 1px 0px 0px var(--boxshadow-border-color);
+    }
+}
+@media (min-width: 1400px) {
+    .bs-xxl-05 {
+        box-shadow: 0px 0px 0px 0.5px var(--boxshadow-border-color);
+    }
+    .bs-xxl-1 {
+        box-shadow: 0px 0px 0px 1px var(--boxshadow-border-color);
+    }
+    .bst-xxl-1 {
+        box-shadow: 0px -1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsr-xxl-1 {
+        box-shadow: 1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsb-xxl-1 {
+        box-shadow: 0px 1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bsl-xxl-1 {
+        box-shadow: -1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bstb-xxl-1 {
+        box-shadow: 0px -1px 0px 0px var(--boxshadow-border-color), 0px 1px 0px 0px var(--boxshadow-border-color);
+    }
+    .bslr-xxl-1 {
+        box-shadow: -1px 0px 0px 0px var(--boxshadow-border-color), 1px 0px 0px 0px var(--boxshadow-border-color);
+    }
+    .bs-xxl-0 {
+        box-shadow: 0px 0px 0px 0px transparent !important;
+    }
+    .bsrb-xxl-1 {
+        box-shadow: 1px 1px 0px 0px var(--boxshadow-border-color);
+    }
+}
+/* Info: box shadow END */

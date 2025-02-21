@@ -1,0 +1,48 @@
+
+:root{
+    /* Info: Top Main Navigation :done  */
+    --main-navigation-background-color: var(--color-primary);
+    --main-navigation-height: 50px;
+    --nav-profile_image-height: 40px;
+}
+.bg-dark {
+    background-color: black !important;
+}
+.navbar{
+    padding: 8px 16px;
+}
+.nav-profile{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    max-height: var(--nav-profile_image-height);
+}
+.nav-profile_image{
+    max-height: var(--nav-profile_image-height);
+}
+.nav-profile_oval{
+    display: inline-block;
+    width: var(--nav-profile_image-height);
+    height: var(--nav-profile_image-height);
+    border: solid 2px #979797;
+    overflow: hidden;
+    border-radius: var(--nav-profile_image-height);
+}
+.nav-profile_name, 
+.nav-profile_designation
+{
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.nav-profile_name
+{
+    color: rgba(255, 255, 255, 1);
+}
+.nav-profile_designation
+{
+    color: rgba(173, 169, 184, 1);
+}
